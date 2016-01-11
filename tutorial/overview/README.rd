@@ -1,7 +1,6 @@
-= SEゼミ2015 - OSS Hack 4 Beginners - OSS開発手順
+= OSS Gateワークショップ（チュートリアル） - OSS開発手順
 
-2015年のSEゼミの「プログラミングが好きな学生のための勉強会 - OSS Hack
-4 Beginners」でのOSS開発手順の説明。
+OSS Gateワークショップ（チュートリアル）でのOSS開発手順の説明。
 
 == ライセンス
 
@@ -25,9 +24,9 @@ CC BY-SA 4.0
 
 === インストール
 
-  gem install rabbit-slide-kou-sezemi-2015-oss-hack-4-beginners-overview
+  gem install rabbit-slide-kou-oss-gate-workshop-tutorial-overview
 
 === 表示
 
-  rabbit rabbit-slide-kou-sezemi-2015-oss-hack-4-beginners-overview.gem
+  rabbit rabbit-slide-kou-oss-gate-workshop-tutorial-overview.gem
 

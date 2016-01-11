@@ -1,7 +1,6 @@
-= SEゼミ2015 - OSS Hack 4 Beginners - フィードバック
+= OSS Gateワークショップ（チュートリアル） - フィードバック
 
-2015年のSEゼミの「プログラミングが好きな学生のための勉強会 - OSS Hack
-4 Beginners」でのフィードバックの送り方の説明。
+OSS Gateワークショップ（チュートリアル）でのフィードバックの送り方の説明。
 
 == ライセンス
 
@@ -25,9 +24,9 @@ CC BY-SA 4.0
 
 === インストール
 
-  gem install rabbit-slide-kou-sezemi-2015-oss-hack-4-beginners-feedback
+  gem install rabbit-slide-kou-oss-gate-workshop-tutorial-feedback
 
 === 表示
 
-  rabbit rabbit-slide-kou-sezemi-2015-oss-hack-4-beginners-feedback.gem
+  rabbit rabbit-slide-kou-oss-gate-workshop-tutorial-feedback.gem
 

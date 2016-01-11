@@ -1,7 +1,6 @@
-= SEゼミ2015 - OSS Hack 4 Beginners - まとめ
+= OSS Gateワークショップ（チュートリアル） - まとめ
 
-2015年のSEゼミの「プログラミングが好きな学生のための勉強会 - OSS Hack
-4 Beginners」のまとめ。
+OSS Gateワークショップ（チュートリアル）のまとめ。
 
 == ライセンス
 
@@ -25,9 +24,9 @@ CC BY-SA 4.0
 
 === インストール
 
-  gem install rabbit-slide-kou-sezemi-2015-oss-hack-4-beginners-conclusion
+  gem install rabbit-slide-kou-oss-gate-workshop-tutorial-conclusion
 
 === 表示
 
-  rabbit rabbit-slide-kou-sezemi-2015-oss-hack-4-beginners-conclusion.gem
+  rabbit rabbit-slide-kou-oss-gate-workshop-tutorial-conclusion.gem
 

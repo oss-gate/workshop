@@ -1,15 +1,15 @@
 ---
-id: sezemi-2015-oss-hack-4-beginners-overview
+id: oss-gate-workshop-tutorial-overview
 base_name: how-to-start-oss-development
 tags:
 - rabbit
-- sezemi
+- oss_gate
 - oss
-presentation_date: 2015-06-27
-version: 2015.6.27.2
+presentation_date: 2016-01-30
+version: 2016.1.30.0
 licenses:
 - CC BY-SA 4.0
-slideshare_id: sezemi-2015-oss-hack-4-beginners-overview
+slideshare_id: oss-gate-workshop-tutorial-overview
 speaker_deck_id: 
 ustream_id: 
 vimeo_id: 
