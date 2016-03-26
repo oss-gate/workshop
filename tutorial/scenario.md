@@ -237,7 +237,9 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 
 ## 16:30 アンケート記入
 
-  * [アンケート](TODO)を記入する
+  * アンケートを記入する
+    * [ビギナー向けアンケート](https://docs.google.com/forms/d/1jSJl_LEWTaoL8pxS_c3lVCAuWJ5CC4nrbbBSuNiXYqw/viewform)
+    * [メンター向けアンケート](https://docs.google.com/forms/d/1y5vtc46yo1SXHHgR4LHBmEAxsyeTLskci_a-PQaB7Pg/viewform)
   * このアンケートはこのあとの「ワークショップのふりかえり」ですぐに使う
 
 ## 16:45 ワークショップのふりかえり
