@@ -4,8 +4,8 @@ base_name: how-to-start-oss-development
 tags:
 - rabbit
 - oss_gate
-presentation_date: 2016-01-30
-version: 2016.1.30.1
+presentation_date: 2016-03-26
+version: 2016.3.26.0
 licenses:
 - CC BY-SA 4.0
 slideshare_id: oss-gate-workshop-tutorial-overview
