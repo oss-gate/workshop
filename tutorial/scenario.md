@@ -70,13 +70,27 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 
   * ビギナーはネットワークの設定をすること
   * メンターはネットワークの設定をすること
-  * 進行役とメンターはビギナーと話してビギナーが開発対象とするOSSを決める
+
+## 10:30 オリエンテーション
+
+目的：
+
+  * ビギナーがどうやってOSS開発に着手すればよいかわかること
+
+今日の進め方を説明：
+
+  * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはoverview/または↓を参照。）
+    * [スライド on Rabbit Slide Show](http://slide.rabbit-shocker.org/authors/kou/oss-gate-workshop-tutorial-overview/)
+    * [スライド on SlideShare](http://www.slideshare.net/kou/oss-gate-workshop-tutorial-overview)
+
+
+* 進行役とメンターはビギナーと話してビギナーが開発対象とするOSSを決める
     * 次のことを加味しながら決める。OSSの技術的な難易度はそれほど重視しなくてよい。
       * ビギナーが使っているOSSにする
       * ビギナーが困っているOSSにする（インストールがうまくいかないとか）
       * メンターが開発に関わっているOSSにする
 
-## 10:30 アイスブレイク
+## 10:40 アイスブレイク
 
   * ビギナー・メンターそれぞれ同じテーブルの人たちに自分がどうしてOSS Gateに関わっているかを話す
   * メンターはビギナーと話してビギナーが開発対象とするOSSを決める
@@ -87,16 +101,6 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
   * [作業ログissueテンプレート](https://github.com/oss-gate/workshop/issues/4)を元に自分用の作業ログissueを作る
 
 ## 10:50 OSS開発手順を説明
-
-目的：
-
-  * ビギナーがどうやってOSS開発に着手すればよいかわかること
-
-目的のために達成したいこと：
-
-  * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはoverview/または↓を参照。）
-    * [スライド on Rabbit Slide Show](http://slide.rabbit-shocker.org/authors/kou/oss-gate-workshop-tutorial-overview/)
-    * [スライド on SlideShare](http://www.slideshare.net/kou/oss-gate-workshop-tutorial-overview)
   * 一通りの流れがわかる
     * 頭でわかる（知識としてわかる）
 
@@ -239,7 +243,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 
   * アンケートを記入する
     * [ビギナー向けアンケート](https://docs.google.com/forms/d/1jSJl_LEWTaoL8pxS_c3lVCAuWJ5CC4nrbbBSuNiXYqw/viewform)
-    * [メンター向けアンケート](https://docs.google.com/forms/d/1y5vtc46yo1SXHHgR4LHBmEAxsyeTLskci_a-PQaB7Pg/viewform)
+    * [メンター向けアンケート](https://docs.google.com/forms/d/145CHej5QIi4eD_eNIVO-o54qwhEf6CFDqoT4Flncpo8/viewform)
   * このアンケートはこのあとの「ワークショップのふりかえり」ですぐに使う
 
 ## 16:45 ワークショップのふりかえり
