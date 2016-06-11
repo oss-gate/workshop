@@ -5,7 +5,7 @@ questions:
       過去に何度かPRを送ってマージされているが、OSSの開発の入り方の感覚がどういったものか他の人から知りたかったので。
   # 開発対象
   ｰ target: |
-      https://github.com/gimite/google-drive-ruby/pulls
+      https://github.com/gimite/google-drive-ruby
   # 満足度
   ｰ satisfaction-rating:
     # ↓のうち当てはまるものを1つ選んでコメントを外してください。
