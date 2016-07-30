@@ -1,0 +1,26 @@
+type: mentor
+questions:
+  # 参加した理由
+  motivation: |
+    OSS Gateの前身のSEゼミのイベントを終わってから知り、自分で参加したかったため。
+    また自分が過去に躓いたのと同じような箇所で躓く人間を減らすため。
+  # 見つけた場所
+  via: |
+    SEゼミのOSS Hack Weekend
+  # このワークショップでビギナーをサポートできましたか？
+  supported:
+    サポートできた
+  # このワークショップの後もビギナーをサポートできそうですか？
+  supportable:
+    頼まれればサポートできる
+  # 満足度
+  satisfaction-rating:
+    満足した
+  # 想定との違い
+  difference:
+    想定通りだった
+  # その他
+  etc: |
+    Ruby及びRailsのユーザーが大幅に増えた、またそれにともない対象OSSが似通うことになった。
+    GitやGitHubの操作を利用した問題調査などをどう示唆するか迷った。
+    ラップトップは今回もMacBookが多かった、Windowsユーザーもわずかにいた。
