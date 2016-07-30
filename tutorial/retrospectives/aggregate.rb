@@ -13,6 +13,8 @@ type = ARGV.shift
 question = ARGV.shift
 
 Dir.glob("#{directory}/#{type}-*.yaml") do |yaml|
-  hash = YAML.load(File.read(yaml))
-  puts hash["questions"][question]
+  if File.basename(yaml) =~ /#{type}-(.+)\.yaml/
+    hash = YAML.load(File.read(yaml))
+    puts $1 + ": " + hash["questions"][question]
+  end
 end
