@@ -1,6 +1,6 @@
 OSS Gate へようこそ。
 
-Workshop では一人ずつ GitHub issue を立ててそこで作業ログを残していきながら進めます。
+OSS Gateワークショップでは一人ずつ issue を作り、そこに作業ログを残しながら進めます。
 過去のビギナーのものはこちらで見られます。 https://github.com/oss-gate/workshop/issues?q=is%3Aissue+is%3Aclosed
 
 ## この issue 作成時点でまずやること
