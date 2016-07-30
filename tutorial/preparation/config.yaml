@@ -1,0 +1,22 @@
+---
+id: oss-gate-workshop-tutorial-preparation
+base_name: how-to-prepare
+tags:
+- rabbit
+- oss_gate
+presentation_date: 2016-07-30
+version: 2016.7.30.0
+licenses:
+- CC BY-SA 4.0
+slideshare_id: oss-gate-workshop-tutorial-preparation
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+author:
+  markup_language: :rd
+  name: Kouhei Sutou
+  email: kou@clear-code.com
+  rubygems_user: kou
+  slideshare_user: kou
+  speaker_deck_user: kou
