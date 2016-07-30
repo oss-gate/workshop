@@ -98,7 +98,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
       * ビギナーが使っているOSSにする
       * ビギナーが困っているOSSにする（インストールがうまくいかないとか）
       * メンターが開発に関わっているOSSにする
-  * [作業ログissueテンプレート](https://github.com/oss-gate/workshop/issues/4)を元に自分用の作業ログissueを作る
+  * [作業ログissueを作る](https://github.com/oss-gate/workshop/issues/new)。
 
 ## 10:50 OSS開発手順を説明
   * 一通りの流れがわかる
