@@ -102,8 +102,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
     * 「声を出す」ことが大事。話題はなんでもよい。みんなが話せそうな話題だから「ワークショップの参加目的」にしているだけ。
 
   * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはpreparation/または↓を参照。）
-    * [スライド on Rabbit Slide Show](http://slide.rabbit-shocker.org/authors/kou/oss-gate-workshop-tutorial-preparation/)
-    * [スライド on SlideShare](http://www.slideshare.net/kou/oss-gate-workshop-tutorial-preparation)
+    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-preparation/)
 
 ## 10:45 進め方の説明
 
@@ -114,8 +113,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 今日の進め方を説明：
 
   * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはoverview/または↓を参照。）
-    * [スライド on Rabbit Slide Show](http://slide.rabbit-shocker.org/authors/kou/oss-gate-workshop-tutorial-overview/)
-    * [スライド on SlideShare](http://www.slideshare.net/kou/oss-gate-workshop-tutorial-overview)
+    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-overview/)
 
   * 進め方の説明の途中でビギナーが開発対象とするOSSを決める
     * 次のことを加味しながら決める。OSSの技術的な難易度はそれほど重視しなくてよい。
@@ -186,8 +184,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 目的達成のために達成したいこと：
 
   * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはfeedback/または↓を参照。）
-    * [スライド on Rabbit Slide Show](http://slide.rabbit-shocker.org/authors/kou/oss-gate-workshop-tutorial-feedback/)
-    * [スライド on SlideShare](http://www.slideshare.net/kou/oss-gate-workshop-tutorial-feedback)
+    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-feedback/)
 
 やること：
 
@@ -241,8 +238,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 目的達成のために達成したいこと：
 
   * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはconclusion/または↓を参照。）
-    * [スライド on Rabbit Slide Show](http://slide.rabbit-shocker.org/authors/kou/oss-gate-workshop-tutorial-conclusion/)
-    * [スライド on SlideShare](http://www.slideshare.net/kou/oss-gate-workshop-tutorial-conclusion)
+    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-conclusion/)
 
 やること：
 
