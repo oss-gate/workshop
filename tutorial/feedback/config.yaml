@@ -1,5 +1,5 @@
 ---
-id: oss-gate-workshop-tutorial-feedback
+id: workshop-tutorial-feedback
 base_name: how-to-report
 tags:
 - rabbit
@@ -8,7 +8,7 @@ presentation_date: 2016-11-26
 version: 2016.11.26.0
 licenses:
 - CC BY-SA 4.0
-slideshare_id: oss-gate-workshop-tutorial-feedback
+slideshare_id: 
 speaker_deck_id: 
 ustream_id: 
 vimeo_id: 
