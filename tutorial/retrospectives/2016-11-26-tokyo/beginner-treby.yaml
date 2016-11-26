@@ -1,0 +1,25 @@
+type: beginner
+questions:
+  motivation: |
+    技術力向上のため / 何故エンジニアの道を選んだのか再確認するため
+  via: |
+    RubyKaigi2016
+  target: |
+    javan/whenever - https://github.com/javan/whenever
+  satisfaction-rating:
+    満足した
+  difference:
+    想定より充実していた
+  moderator: |
+    話口調は落ち着いていてよかった
+  reminder: |
+    読んでいなかった
+  next:
+    次回もビギナーとして参加する
+    まわりの人にOSS Gateワークショップを紹介する
+  future:
+    機会を作って積極的に開発に参加する
+  etc: |
+    メンターの方にかまっていただけるのはありがたいが、
+    こちらが恥ずかしくなってしまい、素直に作業を進めるのが困難になってしまった。
+    多分、ペアプロなどの機会に慣れていないからだと思う。
