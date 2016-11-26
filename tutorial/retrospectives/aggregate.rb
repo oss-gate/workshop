@@ -16,7 +16,8 @@ Dir.glob("#{directory}/#{type}-*.yaml") do |yaml|
   if File.basename(yaml) =~ /#{type}-(.+)\.yaml/
     begin
       hash = YAML.load(File.read(yaml))
-      puts $1 + ": " + hash["questions"][question]
+      puts($1 + ": " + hash["questions"][question])
+      puts("=" * 40)
     rescue => e
     end
   end
