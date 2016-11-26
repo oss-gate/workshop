@@ -158,6 +158,12 @@ OSSを動かそう
 (('tag:center'))
 https://github.com/oss-gate/workshop
 
+= issueを作る
+
+(('tag:center'))
+(('tag:x-large'))
+デモ
+
 = メモ例
 
   brewでインストールできるはずなのに失敗した
@@ -199,6 +205,12 @@ https://github.com/oss-gate/workshop
   * (('note:開発用にインストール'))
   * (('note:テストを実行'))
   * (('note:...'))
+
+= メモ例
+
+(('tag:center'))
+(('tag:x-large'))
+デモ
 
 = 大事なこと
 
