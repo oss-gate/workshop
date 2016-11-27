@@ -36,7 +36,12 @@ key_questionnairy["questions"].each do |question, _|
   puts("-" * question.size)
   questionnaires.each do |account, questionnairy|
     answer = questionnairy["questions"][question]
-    puts(account + ": " + answer)
+    if answer.is_a?(Array)
+      puts("#{account}:")
+      puts(answer.join("\n"))
+    else
+      puts("#{account}: #{answer}")
+    end
     puts("=" * 40)
   end
   puts
