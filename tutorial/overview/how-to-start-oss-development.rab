@@ -162,6 +162,18 @@ https://github.com/oss-gate/workshop
 (('tag:x-large'))
 デモ
 
+= issue作成後
+
+  * メンターはissueにコメント
+    * メンターに書き込み通知がくる
+    * ビギナーがメンターを知れる
+
+= メンターはissueにコメント
+
+(('tag:center'))
+(('tag:x-large'))
+デモ
+
 = メモ例
 
   brewでインストールできるはずなのに失敗した
@@ -223,9 +235,9 @@ https://github.com/oss-gate/workshop
 
 = ミニふりかえり：やり方
 
-(('tag:center'))
-(('tag:x-large'))
-作業メモissueに書いてある！
+  * 作業メモissueに書いてある！
+  * メンターはissueにコメント
+    * 後で誰とやったかわかる！
 
 = ミニふりかえり
 
