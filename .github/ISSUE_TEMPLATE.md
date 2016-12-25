@@ -1,3 +1,11 @@
+This is a work log of "OSS Gate".
+
+"OSS Gate" is about an activity to increase OSS developers.
+
+Here's been discussed in Japanese. Thanks.
+
+---
+
 OSS Gate へようこそ。
 
 OSS Gateワークショップでは一人ずつ issue を作り、そこに作業ログを残しながら進めます。
@@ -5,7 +13,7 @@ OSS Gateワークショップでは一人ずつ issue を作り、そこに作�
 
 ## この issue 作成時点でまずやること
 
-- この issue のタイトルを「OSS Gateワークショップ ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: 作業ログ」の形式でつけてください
+- この issue のタイトルを「OSS Gate Workshop ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log」の形式でつけてください
 - OSS 名が未定の場合はタイトルは後からでも変えられるので、とりあえず未定などでも OK です
 
 ## 作業ログを書くタイミング
