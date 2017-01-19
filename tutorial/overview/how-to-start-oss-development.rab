@@ -176,19 +176,6 @@ https://github.com/oss-gate/workshop
 (('tag:x-large'))
 デモ
 
-= メモ例
-
-  brewでインストールできるはずなのに失敗した
-  （↑期待する結果）
-
-    （↓なにをしたか）
-    % brew install XXX
-    （...コマンドの実行結果...）
-    （↑実際の結果）
-    XXX is not found
-
-  ↑というようにパッケージがないと言われる
-
 = まず動かす
 
   (1) 開発対象OSSを確認
@@ -217,6 +204,19 @@ https://github.com/oss-gate/workshop
   * (('note:開発用にインストール'))
   * (('note:テストを実行'))
   * (('note:...'))
+
+= メモ例
+
+  brewでインストールできるはずなのに失敗した
+  （↑期待する結果）
+
+    （↓なにをしたか）
+    % brew install XXX
+    （...コマンドの実行結果...）
+    （↑実際の結果）
+    XXX is not found
+
+  ↑というようにパッケージがないと言われる
 
 = メモ例
 
