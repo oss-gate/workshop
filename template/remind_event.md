@@ -27,7 +27,7 @@ ${doorkeeper_url}
 OSS GateではGitterにチャットルームを設けています。
 (参加にはGitHubアカウントが必要です)
 
-https://gitter.im/orgs/oss-gate/rooms
+https://gitter.im/orgs/oss-gate/general
 
 どなたでも参加できますので、ご質問等ある方はご利用ください。
 
