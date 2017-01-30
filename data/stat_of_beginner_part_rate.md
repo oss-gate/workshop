@@ -15,4 +15,4 @@ MetaData
 データ元:  
 https://github.com/oss-gate/workshop/issues  のビギナーが使用したリポジトリ  
 https://oss-gate.doorkeeper.jp/events/past の管理ページのビギナーチケット数  
-調べ方: リポジトリ数(目で計測) / Doorkeeperのチケット数  
+調べ方: リポジトリ数(目で計測) / Doorkeeperのチケット数 (小数点以下切り捨て) 
