@@ -1,14 +1,14 @@
-- この issue のタイトルを「OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log」の形式でつけてください
-  - 例：「OSS Gate Workshop: Tokyo: 2017-01-16: kou: Rabbit: Work log」
-- OSS 名が未定の場合はタイトルは後からでも変えられるので、とりあえず未定などでも OK です
-
----
-
 This is a work log of "OSS Gate".
 
 "OSS Gate" is about an activity to increase OSS developers.
 
 Here's been discussed in Japanese. Thanks.
+
+---
+
+- この issue のタイトルを「OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log」の形式でつけてください
+  - 例：「OSS Gate Workshop: Tokyo: 2017-01-16: kou: Rabbit: Work log」
+- OSS 名が未定の場合はタイトルは後からでも変えられるので、とりあえず未定などでも OK です
 
 ---
 
