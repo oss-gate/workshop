@@ -1,3 +1,9 @@
+- この issue のタイトルを「OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log」の形式でつけてください
+  - 例：「OSS Gate Workshop: Tokyo: 2017-01-16: kou: Rabbit: Work log」
+- OSS 名が未定の場合はタイトルは後からでも変えられるので、とりあえず未定などでも OK です
+
+---
+
 This is a work log of "OSS Gate".
 
 "OSS Gate" is about an activity to increase OSS developers.
@@ -10,12 +16,6 @@ OSS Gate へようこそ。
 
 OSS Gateワークショップでは一人ずつ issue を作り、そこに作業ログを残しながら進めます。
 過去のビギナーのものはこちらで見られます。 https://github.com/oss-gate/workshop/issues?q=is%3Aissue+is%3Aclosed
-
-## この issue 作成時点でまずやること
-
-- この issue のタイトルを「OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log」の形式でつけてください
-  - 例：「OSS Gate Workshop: Tokyo: 2017-01-16: kou: Rabbit: Work log」
-- OSS 名が未定の場合はタイトルは後からでも変えられるので、とりあえず未定などでも OK です
 
 ## 作業ログを書くタイミング
 
