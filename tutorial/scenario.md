@@ -79,7 +79,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
     * ネットワークは必須
     * 参加者全員のPCのコンセントが繋がる必要
   * 参加者募集
-    * 募集は今は[Doorkeeper] (https://oss-gate.doorkeeper.jp/)で募集している。
+    * 募集は今は[Doorkeeper](https://oss-gate.doorkeeper.jp/)で募集している。
   * 進行役はこのsenario.mdやスライドをあらかじめ確認しておく
   * 最後の振り返りのためのアンケートを準備しておく
 
