@@ -1,7 +1,5 @@
-This is a work log of "OSS Gate".
-
-"OSS Gate" is about an activity to increase OSS developers.
-
+This is a work log of "OSS Gate".  
+"OSS Gate" is about an activity to increase OSS developers.  
 Here's been discussed in Japanese. Thanks.
 
 ---
