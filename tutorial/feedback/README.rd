@@ -24,9 +24,9 @@ CC BY-SA 4.0
 
 === インストール
 
-  gem install rabbit-slide-kou-oss-gate-workshop-tutorial-feedback
+  gem install rabbit-slide-oss-gate-workshop-tutorial-feedback
 
 === 表示
 
-  rabbit rabbit-slide-kou-oss-gate-workshop-tutorial-feedback.gem
+  rabbit rabbit-slide-oss-gate-workshop-tutorial-feedback.gem
 
