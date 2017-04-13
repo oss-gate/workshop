@@ -4,8 +4,8 @@ base_name: next-step
 tags:
 - rabbit
 - oss_gate
-presentation_date: 2017-01-28
-version: 2017.1.28.0
+presentation_date: 2017-04-13
+version: 2017.4.13.1
 licenses:
 - CC BY-SA 4.0
 slideshare_id: 
