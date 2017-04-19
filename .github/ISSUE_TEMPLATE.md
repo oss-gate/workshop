@@ -2,27 +2,17 @@ This is a work log of a "OSS Gate workshop".
 "OSS Gate workshop" is an activity to increase OSS developers.
 Here's been discussed in Japanese. Thanks.
 
----
+## 作業ログ作成時の説明
 
-このセクションの内容は作業ログを作成するときの説明です。
+以下のテンプレートを埋めてタイトルに設定します。埋め方例はスクロールすると見えてきます。
 
-このissueのタイトルを以下の形式にしてください。
+    OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log
 
-```text
-OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log
-```
+タイトル例↓：
 
-例：
+    OSS Gate Workshop: Tokyo: 2017-01-16: kou: Rabbit: Work log
 
-```text
-OSS Gate Workshop: Tokyo: 2017-01-16: kou: Rabbit: Work log
-```
-
-OSS名が未定の場合は「未定」でもOKです。タイトルは後からでも変えられるので、決まったら変えましょう。
-
----
-
-このセクションの内容はOSS Gateワークショップ関連情報の紹介です。
+## OSS Gateワークショップ関連情報
 
   * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/)：ワークショップの進行に使っているスライドがあります。
   * [チャット](https://gitter.im/oss-gate/devel)：OSS開発に関することならなんでも相談できます。ワークショップが終わった後もオンラインで相談しながら継続的にOSSの開発に参加しましょう！
