@@ -1,11 +1,12 @@
 ---
-id: workshop-tutorial-overview
-base_name: how-to-start-oss-development
+id: workshop-tutorial
+base_name: scenario
 tags:
 - rabbit
 - oss_gate
-presentation_date: 2017-04-13
-version: 2017.4.13.1
+- workshop
+presentation_date: 2017-07-29
+version: 2017.7.29.1
 licenses:
 - CC BY-SA 4.0
 slideshare_id: 
