@@ -59,8 +59,9 @@ cloneした後、「`tutorial/retrospectives/${YEAR}-${MONTH}-${DAY}-${LOCATION}
 
 ```console
 % git add beginner-kou.yaml
-% git commit
-% git push
+% git checkout -b {適当なブランチ名}
+% git commit -m"アンケート提出"
+% git push {適当なブランチ名}
 ```
 
 https://github.com/oss-gate/workshop にアクセスするとpull requestを作成するリンクができているはずなのでそのリンクからpull requestを作ります。
