@@ -17,4 +17,4 @@ Here's been discussed in Japanese. Thanks.
   * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/)：ワークショップの進行に使っているスライドがあります。
   * [チャット](https://gitter.im/oss-gate/devel)：OSS開発に関することならなんでも相談できます。ワークショップが終わった後もオンラインで相談しながら継続的にOSSの開発に参加しましょう！
   * [シナリオ](https://github.com/oss-gate/workshop/blob/master/tutorial/scenario.md)：ワークショップの目的・内容・進め方の詳細が書いています。
-  * [過去のビギナーの作業ログ](https://github.com/oss-gate/workshop/issues?q=is%3Aissue+is%3Aclosed)：他の人の作業ログから学べることがいろいろあるはずです。
+  * [過去のビギナーの作業ログ](https://github.com/oss-gate/workshop/issues?q=is%3Aissue+is%3Aclosed+"OSS+Gate+Workshop"+in%3Atitle)：他の人の作業ログから学べることがいろいろあるはずです。
