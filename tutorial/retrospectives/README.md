@@ -55,18 +55,14 @@ cloneした後、「`tutorial/retrospectives/${YEAR}-${MONTH}-${DAY}-${LOCATION}
 
 回答後、add・commit・pushします。
 
-可能なら`ruby -r yaml -e "YAML.load(ARGF)" ${TYPE}-${アカウント名}.yaml`などで構文チェックすると良いですが、構文エラーなどがあっても進行役が直すので必須ではありません。
-
 例：
 
 ```console
 % git add beginner-kou.yaml
-% git checkout -b {適当なブランチ名}
+% git checkout -b add-retrospective
 % git commit -m"アンケート提出"
-% git push {適当なブランチ名}
+% git push add-retrospective
 ```
-
-適当なブランチ名やコミットメッセージで悩んだら、`git log`で過去のものを参考にすると良いかもしれません。
 
 https://github.com/oss-gate/workshop にアクセスするとpull requestを作成するリンクができているはずなのでそのリンクからpull requestを作ります。
 
@@ -79,7 +75,7 @@ https://github.com/oss-gate/workshop にアクセスするとpull requestを作�
 
 `git fetch upstream`で`upstream`の変更をとってきます。
 `git checkout master`で`master`以外のブランチに切り替えていた場合は`master`ブランチに戻します。
-`git merge upstream/master`で`upstream`の`master`ブランチの変更を手元の`master`ブランチにマージします。
+`git rebase upstream/master`で`upstream`の`master`ブランチの変更を手元の`master`ブランチにマージします。
 
 例：
 
