@@ -2,7 +2,11 @@
 
 OSS Gateワークショップ（チュートリアル）の説明。
 
-[スライド](scenario.rab)と[文章](scenario.md)があります。説明をするときはスライド、詳細を確認するときは文章が適しています。
+スライドと[文章](scenario.md)があります。説明をするときはスライド、詳細を確認するときは文章が適しています。スライドは使い方にあわせて次のどれかを使います。
+
+  * [ソース](scenario.rab)：ローカルで[Rabbit](http://rabbit-shocker.org/)を使って表示するとき
+  * [Rabbit Slide Show](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial/)：Webブラウザーで表示するとき（Rabbitを用意する必要はない）
+  * [PDF](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial/scenario.pdf)：ローカルでPDFビューアーを使って表示する時
 
 ## チャット
 
