@@ -34,21 +34,21 @@ cloneした後、「`tutorial/retrospectives/${YEAR}-${MONTH}-${DAY}-${LOCATION}
 
 そのディレクトリーに以下のファイルがおいてあり、質問が書いてあります。
 
-  * `beginner.yaml`：ビギナー用
-  * `supporter.yaml`：サポーター用
+  * `workshop-beginner.yaml`：ビギナー用
+  * `workshop-supporter.yaml`：サポーター用
 
 自分の立場用（ビギナーなら`beginner.yaml`）のファイルを`${TYPE}-${アカウント名}.yaml`（`${TYPE}`は`beginner`または`supporter`）というファイル名でコピーします。(移動(ファイル名の変更)ではありません。移動されるとマージしにくくなってしまいます。)
 
 ビギナーの例：
 
 ```console
-% cp beginner.yaml beginner-kou.yaml
+% cp workshop-beginner.yaml beginner-kou.yaml
 ```
 
 サポーターの例：
 
 ```console
-% cp supporter{,-kou}.yaml
+% cp workshop-supporter{,-kou}.yaml
 ```
 
 エディターで`${TYPE}-${アカウント名}.yaml`のファイル内にあるアンケートに回答します。
