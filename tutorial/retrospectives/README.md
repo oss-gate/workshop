@@ -89,16 +89,20 @@ https://github.com/oss-gate/workshop にアクセスするとpull requestを作�
 
 以降は上の回答方法のcloneした後、「`tutorial/retrospectives/${YEAR}-${MONTH}-${DAY}-${LOCATION}`」ディレクトリーに移動するところからやってみてください。
 
-# アンケートの準備方法
+## アンケートの準備方法
 
-`prepare.rb` を実行して準備することができます。
+`prepare.rb` を実行して準備します。
 ディレクトリ `${YEAR}-${MONTH}-${DAY}-${LOCATION}` と `workshop|meetup` を指定します。
 
-```console
-# e.g. OSS Gate東京ワークショップ2017-07-29 なら
-% ./prepare.rb 2017-07-29-tokyo workshop
+「OSS Gate東京ワークショップ2017-07-29」の例：
 
-# e.g. OSS Gate大阪ミートアップ2018-01-31 なら
+```console
+% ./prepare.rb 2017-07-29-tokyo workshop
+```
+
+「OSS Gate大阪ミートアップ2018-01-31」の例：
+
+```console
 % ./prepare.rb 2018-01-31-osaka meetup
 ```
 

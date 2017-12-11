@@ -1,23 +1,24 @@
 #!/usr/bin/env ruby
-#
+
 if ARGV.size < 2
   puts("Usage: #{$0} DIRECTORY TYPE")
-  puts(" e.g.: #{$0} 2016-06-09 workshop")
-  puts(" e.g.: #{$0} 2016-06-09 meetup")
+  puts(" e.g.: #{$0} 2017-07-29-tokyo workshop")
+  puts(" e.g.: #{$0} 2018-01-31-osaka meetup")
   exit(false)
 end
+
+require "fileutils"
 
 directory = ARGV.shift
 type = ARGV.shift
 
-unless (Dir.glob("#{directory}").empty?)
-  puts("#{directory}: Directory exists.")
+if File.directory?(directory)
+  puts("Directory already exists: #{directory}")
   exit(false)
 end
 
-require 'fileutils'
-
-Dir.mkdir(directory)
-Dir.glob("#{type}*yaml").each do |yaml|
-  FileUtils.cp(yaml, "#{directory}/" + yaml.sub("#{type}-", ""))
+FileUtils.mkdir_p(directory)
+Dir.glob("#{type}-*.yaml").each do |yaml|
+  yaml_no_type = yaml.sub(/\A#{Regexp.escape(type)}-/, "")
+  FileUtils.cp(yaml, "#{directory}/#{yaml_no_type}")
 end
