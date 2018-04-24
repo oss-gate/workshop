@@ -6,7 +6,7 @@ Here's been discussed in Japanese. Thanks.
 
 以下のテンプレートを埋めてタイトルに設定します。埋め方例はスクロールすると見えてきます。
 
-    OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${アカウント名}: ${OSS名}: Work log
+    OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${ACCOUNT_NAME}: ${OSS_NAME}: Work log
 
 タイトル例↓：
 
