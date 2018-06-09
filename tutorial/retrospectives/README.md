@@ -108,3 +108,9 @@ https://github.com/oss-gate/workshop にアクセスするとpull requestを作�
 % ./prepare.rb 2018-01-31-osaka meetup
 ```
 
+## アンケート集計方法
+
+```console
+% ./aggregate.rb 2018-03-10-tokyo beginner
+% ./aggregate.rb 2018-03-10-tokyo supporter
+```
