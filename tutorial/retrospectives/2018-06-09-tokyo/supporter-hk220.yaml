@@ -1,0 +1,27 @@
+type: supporter
+questions:
+  motivation:
+    OSS の開発について説明しながら自分も学びたかったから。楽しそうだから！
+  via:
+    同僚の誘い
+  supported:
+    - サポートできなかった
+  satisfaction-rating:
+    - 満足した
+  difference:
+    - 想定より充実していた
+  moderator:
+    適宜進行のサポートも入って内容を理解しながら聞くことができた。
+  support-mentor:
+    サポーターで分からないことがあったときに気軽に質問できてよかったです。
+  moderator-likely:
+    - サポートする人がいても自分ではやれなさそう
+  next:
+    - ビギナーとして参加する
+    - まわりの人と一緒にOSS Gateワークショップに参加する
+  active-rate:
+    三ヶ月に一度であれば、参加しやすいので次の参加もしてみたい。
+  challenge-planning:
+    8時間版とかやってみたい。
+  etc:
+    特になし。
