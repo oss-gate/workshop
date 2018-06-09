@@ -66,6 +66,8 @@ cloneした後、「`tutorial/retrospectives/${YEAR}-${MONTH}-${DAY}-${LOCATION}
 
 https://github.com/oss-gate/workshop にアクセスするとpull requestを作成するリンクができているはずなのでそのリンクからpull requestを作ります。
 
+回答のYAMLファイルに文法エラーがある場合、pull requestのテストが失敗するので、CircleCIのリンクを辿ってエラー箇所を特定・修正し、もういちどadd・commit・pushしてください。これをエラーがなくなるまで繰り返します。
+
 ## 2回目以降の回答方法
 
 `workshop`ディレクトリに移動します。
