@@ -1,0 +1,23 @@
+type: supporter
+questions:
+  # 参加した理由
+  motivation: 'サポーターが足りずビギナーがキャンセル待ちになっていたため'
+  via: 'gitter'
+  supported:
+    - サポートできた
+  satisfaction-rating:
+    - 満足した
+  difference:
+    - 想定通りだった
+  moderator: '毎回担当者が違うというのを初めて知ったが、あまりそれを感じなかった :clap: '
+  support-mentor: '本題からズレそうになったときに軌道修正してくれてとても有り難かった'
+  moderator-likely:
+    - 自分一人でもなんとかやれそう
+  next:
+    - サポーターとして参加する
+    - 進行役として参加する
+    - まわりの人にOSS Gateワークショップを紹介する
+    - まわりの人と一緒にOSS Gateワークショップに参加する
+  active-rate: '開催間隔は知っているが、他の予定で埋まることが多い……'
+  challenge-planning: 'プロジェクトオーナーによる貢献リクエストなど(もちろん強制ではない)'
+  etc:
