@@ -1,7 +1,7 @@
 #!/bin/sh
-today=`date +%Y-%m-%d`
+today=${1:-$(date +%Y-%m-%d)}
 result=0
-cd tutorial/retrospectives
+cd "$(dirname "$0")"
 for workshop in `find . -type d -name "${today}*"`; do
   for type in beginner supporter developer; do
     if [ -f ${workshop}/${type}.yaml ]; then
