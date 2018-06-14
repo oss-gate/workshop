@@ -3,7 +3,6 @@
 if ARGV.size < 2
   puts("Usage: #{$0} DIRECTORY TYPE")
   puts(" e.g.: #{$0} 2017-07-29-tokyo workshop")
-  puts(" e.g.: #{$0} 2018-01-31-osaka meetup")
   exit(false)
 end
 

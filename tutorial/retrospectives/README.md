@@ -94,18 +94,12 @@ https://github.com/oss-gate/workshop にアクセスするとpull requestを作�
 ## アンケートの準備方法
 
 `prepare.rb` を実行して準備します。
-ディレクトリ `${YEAR}-${MONTH}-${DAY}-${LOCATION}` と `workshop|meetup` を指定します。
+ディレクトリ `${YEAR}-${MONTH}-${DAY}-${LOCATION}` と `workshop` を指定します。
 
 「OSS Gate東京ワークショップ2017-07-29」の例：
 
 ```console
 % ./prepare.rb 2017-07-29-tokyo workshop
-```
-
-「OSS Gate大阪ミートアップ2018-01-31」の例：
-
-```console
-% ./prepare.rb 2018-01-31-osaka meetup
 ```
 
 ## アンケート集計方法
