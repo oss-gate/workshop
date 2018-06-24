@@ -80,8 +80,8 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
     * 参加者全員のPCのコンセントが繋がる必要
   * 参加者募集
     * 募集は今は[Doorkeeper](https://oss-gate.doorkeeper.jp/)で募集している。
-  * 進行役はこのsenario.mdやスライドをあらかじめ確認しておく
-  * 最後の振り返りのためのアンケートを準備しておく
+  * 進行役はこのsenario.mdや[スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial/)（[ソース](scenario.rab)）をあらかじめ確認しておく
+  * 最後のふりかえりのためのアンケートを準備しておく
 
 ## 開催当日の開始前
 
@@ -100,9 +100,8 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 
   * ビギナー・サポーターそれぞれ同じテーブルの人たちに自分がどうしてこのワークショップに参加したかを話す
     * 「声を出す」ことが大事。話題はなんでもよい。みんなが話せそうな話題だから「ワークショップの参加目的」にしているだけ。
-
-  * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはpreparation/または↓を参照。）
-    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-preparation/)
+  * [Gitterのoss-gate/devel](https://gitter.im/oss-gate/devel)に登録する。
+    * 今回のワークショップだけでなく、今後のOSS開発でも相談できる場所。
 
 ## 10:45 進め方の説明
 
@@ -111,9 +110,6 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
   * ビギナーがどうやってOSS開発に着手すればよいかわかること
 
 今日の進め方を説明：
-
-  * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはoverview/または↓を参照。）
-    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-overview/)
 
   * 進め方の説明の途中でビギナーが開発対象とするOSSを決める
     * 次のことを加味しながら決める。OSSの技術的な難易度はそれほど重視しなくてよい。
@@ -186,12 +182,10 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 目的：
 
   * 「動かす」を実際にやってみて気づいたことをOSSプロジェクトにフィードバックすることを「体験」する
-    * issueでもpull requestでもよい
 
 目的達成のために達成したいこと：
 
-  * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはfeedback/または↓を参照。）
-    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-feedback/)
+  * issueでもpull requestでもメールでのレポートでもなんでもよいのでフィードバックする
 
 やること：
 
@@ -247,8 +241,9 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 
 目的達成のために達成したいこと：
 
-  * 進行役はスライドを使って↓に書いているやり方を説明する。（スライドはconclusion/または↓を参照。）
-    * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-conclusion/)
+  * 参加者が以下を体験したことに気づく。
+    * 普段見逃しているだけでフィードバックポイントは今までもあった。
+    * フィードバックは実は難しくない。
 
 やること：
 
@@ -259,8 +254,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 ## 16:05 アンケート記入
 
   * アンケートを記入する
-    * [ビギナー向けアンケート](https://docs.google.com/forms/d/1pnu02fc-oxh1tIJQFSWiI7wvR2hv09-WlXOMC-duK0U/viewform)
-    * [サポーター向けアンケート](https://docs.google.com/forms/d/145CHej5QIi4eD_eNIVO-o54qwhEf6CFDqoT4Flncpo8/viewform)
+    * [アンケートの場所](https://github.com/oss-gate/workshop/tree/master/tutorial/retrospectives)
   * このアンケートはこのあとの「ワークショップのふりかえり」ですぐに使う
 
 ## 16:15 ワークショップのふりかえり

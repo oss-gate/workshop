@@ -12,18 +12,21 @@ require "yaml"
 directory = ARGV.shift
 type = ARGV.shift
 target_question = ARGV.shift
+result = true
 
 questionnaires = {}
-Dir.glob("#{directory}/#{type}-*.yaml") do |yaml|
+Dir.glob("#{directory}/#{type}-*.yaml").sort.each do |yaml|
   if File.basename(yaml) =~ /#{type}-(.+)\.yaml/
     account = $1
     begin
-      questionnaires[account] = YAML.load(File.read(yaml))
+      questionnaires[account] = YAML.load(File.read(yaml, encoding: 'BOM|UTF-8'))
     rescue Psych::SyntaxError
-      puts("#{account}: syntax error: #{$!}")
+      $stderr.puts("#{account}: syntax error: #{$!}")
+      result = false
     end
   end
 end
+exit(true) if questionnaires.size == 0
 
 _, key_questionnairy = questionnaires.first
 key_questionnairy["questions"].each do |question, _|
@@ -46,3 +49,4 @@ key_questionnairy["questions"].each do |question, _|
   end
   puts
 end
+exit(result)
