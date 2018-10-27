@@ -1,0 +1,31 @@
+type: supporter
+questions:
+  motivation: |
+    楽しいからです。
+    自分がエラーになったのを修正すると同じエラーを踏む人はいないですし
+    自分が作ったものであればFBをもらえたりするのは嬉しい
+  via:
+    会社版OSS Gate Workshop
+  supported:
+    - サポートできた
+  satisfaction-rating:
+    - 満足した
+  difference:
+    - 想定より充実していた
+  moderator:
+    スライドの内容が分かりやすくて随時会場に質問をふって巻き込んでいく感じが良かった。
+  support-mentor:
+    はい！
+  moderator-likely:
+    - サポートする人がいれば自分でもやれそう
+  next:
+    - サポーターとして参加する
+  active-rate:
+    予定が空いていれば参加したいです
+  # 次に変えて試すこと
+  challenge-planning: |
+    最初からサポーターの人がつくのではなく、
+    どのOSSをやるとビギナーの人が決めて、
+    その後サポーターが興味あるOSSをやるビギナーのところにいくのは面白いかも？
+  etc:
+    2年前にOSSの開発に参加するのが怖かった自分を思い出して懐かしかったです
