@@ -17,7 +17,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    metabaes https://github.com/metabase/metabase
+    metabase https://github.com/metabase/metabase
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
