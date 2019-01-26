@@ -15,7 +15,7 @@ questions:
     # どこでこのワークショップを知りましたか？
     思い出せませんがRubyコミュニティだったと思います。
   # 開発対象
-  target:i
+  target:
     # ワークショップで開発対象に選んだOSSはなんですか？
     https://github.com/serverless/serverless
   # 満足度
