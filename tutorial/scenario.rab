@@ -585,9 +585,9 @@ OSSの開発を\n
 
 = アンケートの回答方法
 
-  * https://github.com/oss-gate/workshop をfork
-  * tutorial/retrospectives/XXXX-XX-XX-XXXXXX
-    * beginner.yaml → beginner-XXXXXX.yaml
-    * supporter.yaml → supporter-XXXXXX.yaml
+  * github.com/oss-gate/workshop をfork
+  * tutorial/retrospectives/YYYY-MM-DD-XXXX
+    * beginner.yaml → beginner-XXXX.yaml
+    * supporter.yaml → supporter-XXXX.yaml
   * git add → git commit → git push して
     プルリクエスト
