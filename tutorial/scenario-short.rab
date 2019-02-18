@@ -540,8 +540,8 @@ OSSの開発を\n
 = アンケートの回答方法
 
   * https://github.com/oss-gate/workshop をfork
-  * master/tutorial/retrospectives/2019-02-18-akatsuki
-    * beginner.yml → beginner-(アカウント名).yml にコピー
-    * supporter.yml → supporter-(アカウント名).yml にコピー
-  * 書けたら git add → git commit → git push して
+  * tutorial/retrospectives/XXXX-XX-XX-XXXXXX
+    * beginner.yaml → beginner-XXXXXX.yaml
+    * supporter.yaml → supporter-XXXXXX.yaml
+  * git add → git commit → git push して
     プルリクエスト
