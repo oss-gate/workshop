@@ -582,3 +582,12 @@ OSSの開発を\n
   * この後すぐ
     * アンケート記入
     * アンケート結果をみんなで確認
+
+= アンケートの回答方法
+
+  * https://github.com/oss-gate/workshop をfork
+  * master/tutorial/retrospectives/2019-02-18-akatsuki
+    * beginner.yml → beginner-(アカウント名).yml にコピー
+    * supporter.yml → supporter-(アカウント名).yml にコピー
+  * 書けたら git add → git commit → git push して
+    プルリクエスト
