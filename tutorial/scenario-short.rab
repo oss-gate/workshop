@@ -539,9 +539,10 @@ OSSの開発を\n
 
 = アンケートの回答方法
 
-  * github.com/oss-gate/workshop をfork
-  * tutorial/retrospectives/YYYY-MM-DD-XXXX
-    * beginner.yaml → beginner-XXXX.yaml
-    * supporter.yaml → supporter-XXXX.yaml
-  * git add → git commit → git push して
-    プルリクエスト
+  (1) (('tag:x-small'))github.com/oss-gate/workshop をfork
+  (2) (('tag:x-small'))tutorial/retrospectives/YYYY-MM-DD-***
+      * (('tag:x-small'))beginner.yaml → beginner-***.yaml
+      * (('tag:x-small'))supporter.yaml → supporter-***.yaml
+  (3) (('tag:x-small'))git add → git commit → git push
+  (4) (('tag:x-small'))github.com/自分のアカウント/workshop
+      を開いて「Pull request」
