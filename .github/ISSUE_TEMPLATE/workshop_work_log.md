@@ -1,3 +1,8 @@
+---
+name: ワークショップの作業メモ
+about: ワークショップ中にビギナーが使う
+---
+
 This is a work log of a "OSS Gate workshop".
 "OSS Gate workshop" is an activity to increase OSS developers.
 Here's been discussed in Japanese. Thanks.
