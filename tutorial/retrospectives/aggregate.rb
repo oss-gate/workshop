@@ -18,7 +18,6 @@ questionnaires = {}
 Dir.glob("#{directory}/#{type}-*.yaml").sort.each do |yaml|
   if File.basename(yaml) =~ /#{type}-(.+)\.yaml/
     account = $1
-    questionnaires[account] = {} # set dummy data for avoid errors
     begin
       questionnaires[account] = YAML.load(File.read(yaml, encoding: 'BOM|UTF-8'))
     rescue Psych::SyntaxError
@@ -27,6 +26,7 @@ Dir.glob("#{directory}/#{type}-*.yaml").sort.each do |yaml|
     end
   end
 end
+exit(false) unless result
 exit(true) if questionnaires.size == 0
 
 _, key_questionnairy = questionnaires.first
