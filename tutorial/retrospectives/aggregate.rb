@@ -26,6 +26,7 @@ Dir.glob("#{directory}/#{type}-*.yaml").sort.each do |yaml|
     end
   end
 end
+exit(false) unless result
 exit(true) if questionnaires.size == 0
 
 _, key_questionnairy = questionnaires.first
