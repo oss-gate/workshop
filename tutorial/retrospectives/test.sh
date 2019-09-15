@@ -17,6 +17,10 @@ for workshop in `find . -type d -name "${today}*"`; do
       echo "Filename must be ${workshop}/${type}-\${USER}.yaml instead of ${workshop}/${type}_\${USER}.yaml"
       result=1
     fi
+    if ls ${workshop}/${type}_*.yml >/dev/null 2>&1; then
+      echo "Extension must be .yaml instead of .yml"
+      result=1
+    fi
   done
 done
 exit ${result}
