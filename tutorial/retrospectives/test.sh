@@ -6,9 +6,9 @@ for workshop in `find . -type d -name "${today}*"`; do
   for type in beginner supporter; do
     if [ -f ${workshop}/${type}.yaml ]; then
       ./aggregate.rb ${workshop} ${type} >/dev/null
-		if [ ! $? = '0' ]; then
-			result=1
-		fi
+      if [ ! $? = '0' ]; then
+        result=1
+      fi
     elif ls ${workshop}/${type}?*.yaml >/dev/null 2>&1; then
       echo "Do not delete ${workshop}/${type}.yaml"
       result=1
