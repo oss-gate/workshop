@@ -30,5 +30,5 @@ about: ワークショップ開催までのタスク管理
 - [ ] 会場決定（開催の1ヶ月前までにやる）
 - [ ] 進行役決定（開催の1ヶ月前までにやる）
 - [ ] サポーター募集のメッセージ作成（開催の2週間前までにやる）
-- [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理（開催の3日前にやる）
+- [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理（開催の1週間前にやる）
 - [ ] 会場案内のメッセージ作成（開催の3日前までにやる）
