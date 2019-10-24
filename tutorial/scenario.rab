@@ -598,8 +598,8 @@ OSSの開発を\n
 
   (1) (('tag:x-small'))github.com/oss-gate/workshop をfork
   (2) (('tag:x-small'))tutorial/retrospectives/YYYY-MM-DD-***
-      * (('tag:x-small'))beginner.yaml → beginner-***.yaml
-      * (('tag:x-small'))supporter.yaml → supporter-***.yaml
+      * cp (('tag:x-small'))beginner.yaml beginner-***.yaml
+      * cp (('tag:x-small'))supporter.yaml supporter-***.yaml
   (3) (('tag:x-small'))git add → git commit → git push
   (4) (('tag:x-small'))github.com/自分のアカウント/workshop
       を開いて「Pull request」
