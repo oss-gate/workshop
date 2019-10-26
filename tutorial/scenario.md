@@ -80,7 +80,7 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
     * 参加者全員のPCのコンセントが繋がる必要
   * 参加者募集
     * 募集は今は[Doorkeeper](https://oss-gate.doorkeeper.jp/)で募集している。
-  * 進行役はこのsenario.mdや[スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial/)（[ソース](scenario.rab)）をあらかじめ確認しておく
+  * 進行役はこのscenario.mdや[スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial/)（[ソース](scenario.rab)）をあらかじめ確認しておく
   * 最後のふりかえりのためのアンケートを準備しておく
 
 ## 開催当日の開始前
