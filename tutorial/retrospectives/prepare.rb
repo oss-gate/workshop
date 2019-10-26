@@ -1,8 +1,12 @@
 #!/usr/bin/env ruby
 
 if ARGV.size < 2
-  puts("Usage: #{$0} DIRECTORY TYPE")
+  puts("Usage: #{$0} DIRECTORY TEMPLATE_TYPE")
   puts(" e.g.: #{$0} 2017-07-29-tokyo workshop")
+  puts("")
+  puts("TEMPLATE_TYPE is used to specify the type of template files")
+  puts("to be copied into DIRECTORY.")
+  puts(" e.g.: ./workshop-beginner.yaml is copied to ./DIRECTORY/beginner.yaml ")
   exit(false)
 end
 
