@@ -18,6 +18,6 @@ end
 
 FileUtils.mkdir_p(directory)
 Dir.glob("#{type}-*.yaml").each do |yaml|
-  yaml_no_type = yaml.sub(/\A#{Regexp.escape(type)}-/, "")
-  FileUtils.cp(yaml, "#{directory}/#{yaml_no_type}")
+  yaml_without_type_prefix = yaml.sub(/\A#{Regexp.escape(type)}-/, "")
+  FileUtils.cp(yaml, "#{directory}/#{yaml_without_type_prefix}")
 end
