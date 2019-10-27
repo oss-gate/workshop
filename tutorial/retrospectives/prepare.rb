@@ -18,13 +18,6 @@ end
 require "fileutils"
 require "date"
 
-shell_path = ENV["SHELL"]
-
-if shell_path && /Git\\usr\\bin\\bash\.exe$/.match(shell_path)
-  # settings for Git Bash that block calls of gets()
-  STDOUT.sync = true
-end
-
 def date_part(date = Date.today)
   date.strftime("%Y-%m-%d")
 end
