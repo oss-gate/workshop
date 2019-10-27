@@ -23,7 +23,7 @@ def date_part(date = Date.today)
 end
 
 def set_arguments_interactively(args)
-  args.values.each do |arg|
+  args.each_value do |arg|
     default = arg[:default]
     print "#{arg[:label]} [#{default}]: "
     STDOUT.flush
