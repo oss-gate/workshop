@@ -26,6 +26,7 @@ def set_arguments_interactively(args)
   args.values.each do |arg|
     default = arg[:default]
     print "#{arg[:label]} [#{default}]: "
+    STDOUT.flush
     value = gets.chomp
     arg[:value] = value.empty? ? default : value
   end
