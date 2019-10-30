@@ -32,3 +32,4 @@ about: ワークショップ開催までのタスク管理
 - [ ] サポーター募集のメッセージ作成（開催の2週間前までにやる）
 - [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理（開催の1週間前にやる）
 - [ ] 会場案内のメッセージ作成（開催の3日前までにやる）
+- [ ] `tutorial/retrospectives/prepare.rb` を実行してアンケートのテンプレートを追加する（ #1337 ）（開催当日までにやる・要コミット権）
