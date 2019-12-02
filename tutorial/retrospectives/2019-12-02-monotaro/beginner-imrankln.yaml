@@ -3,48 +3,39 @@ questions:
   # 参加した理由
   motivation:
     # どうしてこのワークショップに参加しようと思いましたか？
-   wanted to work with colleagues from different department and share knowledge.
     # どうしてOSSの開発に参加したいと思っていますか？
-     Use opensource software much easier and user friendly for others.
     # みんなのためとか世界のためとかでもよいですが、
     # 個人的な理由でもまったく問題ありません。
     # 自分の思っていることを大事にしたいのです。
     # アイスブレイクのときに話した内容でもよいですし、
     # そのあとに気持ちが変わったらなら変わった気持ちでよいです。
-    (ここに回答を改行を入れずに書いてください)
+    wanted to work with colleagues from different department and share knowledge.
+    Use opensource software much easier and user friendly for others.
   # 見つけた場所
   via:
     # どこでこのワークショップを知りましたか？
     from colleague.
-    (ここに回答を改行を入れずに書いてください)
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
     Magento Open Source
-    (ここに回答を改行を入れずに書いてください)
   # 満足度
   satisfaction-rating:
-    # ↓のうち当てはまるものだけを残してください。
     - すごく満足した
   # 想定との違い
   difference:
-    # ↓のうち当てはまるものだけを残してください。
     - 想定より充実していた
   # 進行役について
   moderator:
     # 進行役はうまく進行できていましたか？
-    はい
     # 進行役の説明はどうでしたか？
-    はい
     # スライドの内容を理解するのに役立ちましたか？
     はい
-    (ここに回答を改行を入れずに書いてください)
   # サポートメンターについて
   support-mentor:
     # サポートメンターはサポーターがいないときの代役としてうまくフォローできていましたか？
     # サポートメンターはサポーターをうまくフォローできていましたか？
     はい
-    (ここに回答を改行を入れずに書いてください)
   # 次回のOSS Gateワークショップについて
   next:
     # (複数選択)↓のうち当てはまるものをすべて残してください。
@@ -64,8 +55,8 @@ questions:
   challenge-planning:
     # ワークショップの内容を何か1つだけ変えられるとしたら、
     # どんなことを試したいと思いますか？
-    (ここに回答を改行を入れずに書いてください)
+    とくになし
   # その他
   etc:
     # なにか思ったことがあれば自由に書いてください。
-    (ここに回答を改行を入れずに書いてください)
+    とくになし
