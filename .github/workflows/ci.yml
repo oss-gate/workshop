@@ -7,10 +7,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: setup
-        uses: eregon/use-ruby-action@master
-        with:
-          ruby-version: 2.7
-      - name: run tests
-        run: ./tutorial/retrospectives/test.sh
+    - uses: actions/checkout@v2
+    - name: setup
+      uses: eregon/use-ruby-action@master
+      with:
+        ruby-version: 2.7
+    - name: run tests
+      run: ./tutorial/retrospectives/test.sh
