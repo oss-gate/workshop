@@ -1,16 +1,16 @@
 name: CI
 on: [push, pull_request]
-env:
-  TZ: /usr/share/zoneinfo/Asia/Tokyo
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: setup
+    - name: setup ruby
       uses: eregon/use-ruby-action@master
       with:
         ruby-version: 2.7
     - name: run tests
+      env:
+        TZ: Asia/Tokyo
       run: ./tutorial/retrospectives/test.sh
