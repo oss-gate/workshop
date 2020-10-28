@@ -17,7 +17,7 @@ task :online do
 end
 
 desc "Short Workshop"
-task :online do
+task :short do
   Rabbit::Command::Rabbit.run("scenario-short.rab")
 end
 
