@@ -16,6 +16,11 @@ task :online do
   Rabbit::Command::Rabbit.run("scenario-online.rab")
 end
 
+desc "Short Workshop"
+task :online do
+  Rabbit::Command::Rabbit.run("scenario-short.rab")
+end
+
 desc "Tag #{spec.version}"
 task :tag do
   sh("git", "tag", "-a", spec.version.to_s, "-m", "Publish #{spec.version}")
