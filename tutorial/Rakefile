@@ -11,6 +11,11 @@ Rabbit::Task::Slide.new do |task|
   # task.spec.add_runtime_dependency("rabbit-theme-clear-code")
 end
 
+desc "Online Workshop"
+task :online do
+  Rabbit::Command::Rabbit.run("scenario-online.rab")
+end
+
 desc "Tag #{spec.version}"
 task :tag do
   sh("git", "tag", "-a", spec.version.to_s, "-m", "Publish #{spec.version}")
