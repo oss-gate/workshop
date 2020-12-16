@@ -12,7 +12,7 @@ about: ワークショップ開催までのタスク管理
 - 進行役: @
 - このイベントに関する窓口: @
 
-## 会場設備確認
+## 会場設備確認（オフライン開催の場合）
 
 参考：[ワークショップ会場の提供](https://oss-gate.github.io/sponsors/wanted.html#workshop-space)
 
