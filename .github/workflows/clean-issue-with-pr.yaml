@@ -1,0 +1,17 @@
+on:
+  pull_request:
+    paths:
+      - "tutorial/retrospectives/**/*.yaml"
+
+jobs:
+  clean-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: oss-gate/issue-cleaner@v3
+        with:
+          DOORKEEPER_GROUP: oss-gate
+          CONNPASS_KEYWORD: oss gate
+          author: ${{ github.event.sender.login }}
+        env:
+          DOORKEEPER_TOKEN: ${{ secrets.DOORKEEPER_TOKEN }}
