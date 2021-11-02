@@ -14,6 +14,7 @@ speaker_deck_id:
 ustream_id: 
 vimeo_id: 
 youtube_id: 
+source_code_uri: https://github.com/oss-gate/workshop/tree/master/tutorial/scenario-online
 author:
   markup_language: :rd
   name: OSS Gate
