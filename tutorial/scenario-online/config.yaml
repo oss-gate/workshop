@@ -1,5 +1,5 @@
 ---
-id: workshop-tutorial
+id: workshop-tutorial-online
 base_name: scenario
 tags:
 - rabbit
@@ -8,7 +8,7 @@ tags:
 presentation_date: 2019-07-27
 version: 2019.7.27.0
 licenses:
-- CC BY-SA 4.0
+- CC-BY-SA-4.0
 slideshare_id: 
 speaker_deck_id: 
 ustream_id: 

@@ -1,0 +1,23 @@
+---
+id: workshop-tutorial
+base_name: scenario
+tags:
+- rabbit
+- oss_gate
+- workshop
+presentation_date: 2019-07-27
+version: 2019.7.27.0
+licenses:
+- CC-BY-SA-4.0
+slideshare_id: 
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+author:
+  markup_language: :rd
+  name: OSS Gate
+  email: kou+oss-gate@cozmixng.org
+  rubygems_user: oss-gate
+  slideshare_user: 
+  speaker_deck_user: 
