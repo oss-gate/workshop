@@ -31,23 +31,23 @@ about: ワークショップ開催までのタスク管理
     - [ ] 進行役決定
     - [ ] 窓口決定（オフライン開催の場合）
     - [ ] 会場決定（オフライン開催の場合）
-    - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation.md)
+    - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_2_weeks.md)
   - 開催2週間前（YYYY-MM-DD）
-    - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_reminder_before_2_weeks.md)
-    - [ ] イベント未登録者向け：[イベント告知、サポーター募集文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_before_2_weeks.md)
-    - [ ] イベント未登録者向け：[前半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_only_first_half.md)
-    - [ ] イベント未登録者向け：[後半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_only_second_half.md)
+    - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_2_weeks.md)
+    - [ ] イベント未登録者向け：[イベント告知、サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_before_2_weeks.md)
+    - [ ] イベント未登録者向け：[前半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_only_first_half.md)
+    - [ ] イベント未登録者向け：[後半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_only_second_half.md)
   - 開催1週間前（YYYY-MM-DD）
     - [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理
-    - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_reminder_before_1_week.md)
-    - [ ] 参加者向け：[Discord招待URLの通知用文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_discord_url.md)（オンライン開催の場合）
+    - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_1_week.md)
+    - [ ] 参加者向け：[Discord招待URLの通知用文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_discord_url.md)（オンライン開催の場合）
   - 開催3日前（YYYY-MM-DD）
-    - [ ] 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_canceled.md)）
-    - [ ] 参加者向け：[場案内の通知用文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_location.md)（オフライン開催の場合）
+    - [ ] 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)）
+    - [ ] 参加者向け：[場案内の通知用文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_location.md)（オフライン開催の場合）
   - 開催1日前（YYYY-MM-DD）
-    - [ ] 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_canceled.md)）
-    - [ ] 参加者向け：[会場案内の通知用文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_location_reminder.md)（オフライン開催の場合）
-    - [ ] 参加者向け：[Discord招待URLの通知用文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_discord_url_reminder.md)（オンライン開催の場合）
+    - [ ] 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)）
+    - [ ] 参加者向け：[会場案内の通知用文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_location_reminder.md)（オフライン開催の場合）
+    - [ ] 参加者向け：[Discord招待URLの通知用文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_discord_url_reminder.md)（オンライン開催の場合）
     - [ ] `tutorial/retrospectives/prepare.rb` を実行してアンケートのテンプレートを追加する（ #1337 ）（要コミット権）
 - [ ] 4回分先までのDoorkeeperイベントページの作成（要管理権限）
   1. [イベントリスト](https://manage.doorkeeper.jp/groups/oss-gate/events)を開く。
