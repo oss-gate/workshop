@@ -31,13 +31,14 @@ about: ワークショップ開催までのタスク管理
 - [ ] 進行役決定（開催の1ヶ月前までにやる）
 - リマインダー送信（要管理権限）
   - [ ] 開催1ヵ月前（YYYY-MM-DD）
-    - （全員向け：イベント告知、[サポーター募集文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation.md)）
+    - （イベント未登録者向け：イベント告知、[サポーター募集文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation.md)）
   - [ ] 開催2週間前（YYYY-MM-DD）
-    - （イベント参加登録者向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_reminder_before_2_weeks.md)）
-    - （全員向け：イベント告知、[サポーター募集文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_before_2_weeks.md)）
-    - （全員向け：[前半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_only_first_half.md)）
-    - （全員向け：[後半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_only_second_half.md)）
-  - [ ] 開催1週間前（イベント参加登録者向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_reminder_before_1_week.md)）
+    - （参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_reminder_before_2_weeks.md)）
+    - （イベント未登録者向け：イベント告知、[サポーター募集文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_before_2_weeks.md)）
+    - （イベント未登録者向け：[前半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_only_first_half.md)）
+    - （イベント未登録者向け：[後半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_supporter_invitation_only_second_half.md)）
+  - [ ] 開催1週間前（YYYY-MM-DD）
+    - （参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_reminder_before_1_week.md)）
 - [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理（開催の1週間前までにやる）
 - 開催中止の連絡
   - [ ] 開催3日前（YYYY-MM-DD）までにサポーターが充分に集まらなかった場合（イベント参加登録者向け：[中止を伝える文面](https://github.com/oss-gate/workshop/blob/master/template/workshop_canceled.md)）
