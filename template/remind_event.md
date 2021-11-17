@@ -1,3 +1,6 @@
+Subject: 【リマインダー】${event_name}
+Target: 参加者
+
 ${event_name}に参加予定の皆さん、こんにちは。
 当日${role}で参加予定の ${user_name} です。
 

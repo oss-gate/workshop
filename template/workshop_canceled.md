@@ -1,4 +1,5 @@
 Subject: 【開催中止のお知らせ】${event_name}
+Target: 参加者
 
 OSS Gateワークショップに参加申し込みをされている皆さん、こんにちは。
 ${role}の${user_name}です。
