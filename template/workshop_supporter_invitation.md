@@ -23,4 +23,12 @@ ${month}月${day}日にOSS Gateワークショップを開催予定です。
 どうぞふるってご参加ください！
 （なお、現時点でのビギナー参加希望者キャンセル待ちは${num_pending_beginners}人です。全員に参加していただくには、各時間帯にあと${(num_pending_beginners * 2) - (num_allday_supporters + [num_first_half_supporters, num_second_half_supporters].min)}人のサポーターが必要となります。）
 
+サポーターや進行役が当日どのようなことをするかについては、以下のページに詳しい紹介があります。 初めての方でも、分からない所はサポートメンターがお手伝いしますので、ぜひ勇気を出してチャレンジして頂ければ幸いです！
+
+サポーターガイド https://oss-gate.github.io/workshop/supporter-guide.html 進行役スタートガイド https://oss-gate.github.io/workshop/new-to-moderator.html
+
+進行役を務めてみたい方は、サポーターとして参加登録をされた上で、以下のIssueにて「進行役をしてみたい」とコメントして頂けましたら幸いです。
+
+${{Issue URL}}
+
 それでは。
