@@ -15,7 +15,7 @@ target_question = ARGV.shift
 result = true
 
 questionnaires = {}
-Dir.glob("#{directory}/#{type}-*.yaml").sort.each do |yaml|
+Dir.glob("#{directory}/#{type}-*.y*ml").sort.each do |yaml|
   if File.basename(yaml) =~ /#{type}-(.+)\.ya?ml/
     account = $1
     begin
