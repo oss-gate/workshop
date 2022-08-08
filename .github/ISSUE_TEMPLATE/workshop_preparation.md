@@ -31,7 +31,7 @@ about: ワークショップ開催までのタスク管理
     - [ ] 進行役決定
     - [ ] 窓口決定（オフライン開催の場合）
     - [ ] 会場決定（オフライン開催の場合）
-    - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_2_weeks.md)
+    - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation.md)
   - 開催2週間前（YYYY-MM-DD）
     - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_2_weeks.md)
     - [ ] イベント未登録者向け：[イベント告知、サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_before_2_weeks.md)
