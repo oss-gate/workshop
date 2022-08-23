@@ -15,6 +15,7 @@ about: ワークショップ開催までのタスク管理
 - タイムライン、メッセージ送信予定（要管理権限）
   - 開催1ヵ月前（YYYY-MM-DD）
     - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation.md)
+    - [ ] Gitter向け: [サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/event_notice_for_gitter.md)
   - 開催2週間前（YYYY-MM-DD）
     - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_2_weeks.md)
     - [ ] イベント未登録者向け：[イベント告知、サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_before_2_weeks.md)
