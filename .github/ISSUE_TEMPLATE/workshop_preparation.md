@@ -14,14 +14,14 @@ about: ワークショップ開催までのタスク管理
 - [ ] Doorkeeperのイベントページ作成（要管理権限）
 - タイムライン、メッセージ送信予定（要管理権限）
   - 開催1ヵ月前（YYYY-MM-DD）
-    - [ ] 進行役決定
     - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation.md)
   - 開催2週間前（YYYY-MM-DD）
     - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_2_weeks.md)
     - [ ] イベント未登録者向け：[イベント告知、サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_before_2_weeks.md)
-    - [ ] イベント未登録者向け：[前半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_only_first_half.md)
-    - [ ] イベント未登録者向け：[後半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_only_second_half.md)
+    - [ ] (もし前半枠のサポーターが足りなければ) イベント未登録者向け：[前半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_only_first_half.md)
+    - [ ] (もし後半枠のサポーターが足りなければ) イベント未登録者向け：[後半枠のみサポーター募集の場合の文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation_only_second_half.md)
   - 開催1週間前（YYYY-MM-DD）
+    - [ ] 進行役決定
     - [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理
     - [ ] 参加者、キャンセル待ち向け：[不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_1_week.md)
     - [ ] 参加者向け：[Discord招待URLの通知用文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_discord_url.md)
