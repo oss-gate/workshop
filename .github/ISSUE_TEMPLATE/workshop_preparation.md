@@ -26,10 +26,10 @@ about: ワークショップ開催までのタスク管理
     - [ ] [ビギナーの繰り上がり](https://oss-gate.github.io/workshop/beginner-preferential-treatment.html)処理
     - [ ] 参加者、キャンセル待ち向け：[当日の参加方法案内および不参加の場合のキャンセルを呼びかける文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_reminder_before_1_week.md)
   - 開催3日前（YYYY-MM-DD）
-    - [ ] 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)
+    - [ ] (もしサポーターが集まらず開催できない場合) 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)
   - 開催1日前（YYYY-MM-DD）
     - [ ] 参加者向け：[Discord招待URLの通知用文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_discord_url.md)
-    - [ ] 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)
+    - [ ] (もしサポーターが集まらず開催できない場合) 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)
     - [ ] `tutorial/retrospectives/prepare.rb` を実行してアンケートのテンプレートを追加する（ #1337 ）（要コミット権）
 - [ ] 4回分先までのDoorkeeperイベントページの作成（要管理権限）
   1. [イベントリスト](https://manage.doorkeeper.jp/groups/oss-gate/events)を開く。
