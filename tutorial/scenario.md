@@ -253,6 +253,8 @@ OSSの開発に参加する方法は無数にありますが、「好きなよ�
 
 ## 16:05 アンケート記入
 
+  * ビギナーのアンケートファイルの自動生成
+    * [ビギナーのファイルを用意する](https://github.com/oss-gate/workshop/tree/master/tutorial/retrospectives/README.md#ビギナーのファイルを用意する)
   * アンケートを記入する
     * [アンケートの場所](https://github.com/oss-gate/workshop/tree/master/tutorial/retrospectives)
   * このアンケートはこのあとの「ワークショップのふりかえり」ですぐに使う

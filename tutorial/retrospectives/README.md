@@ -102,6 +102,20 @@ https://github.com/oss-gate/workshop にアクセスするとpull requestを作�
 % ./prepare.rb 2017-07-29-tokyo workshop
 ```
 
+### ビギナーのファイルを用意する
+
+forkをせずに、GitHub上でアンケートを回答するビギナーが多いです。
+その際、ビギナーにファイルをコピーしてもらう手順が難しかったり、`beginner`のスペルを打ち間違えることが多くありました。
+なので、この方法でアンケートの前に各ビギナーのファイルを用意しておくとスムーズです。
+
+休憩時間など、各ビギナーの作業メモissueが揃ったタイミングで、 `prepare_beginner_files.rb` を実行します。
+事前に `prepare.rb` で作成したディレクトリを指定します。
+これにより、open状態の作業メモissueのタイトルからアカウント名を抽出し、ビギナーのアンケートファイルを作成します。
+
+```console
+% ./prepare_beginner_files.rb 2017-07-29-tokyo
+```
+
 ## アンケート集計方法
 
 ```console
