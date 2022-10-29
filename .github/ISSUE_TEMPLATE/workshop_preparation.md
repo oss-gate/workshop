@@ -12,6 +12,10 @@ about: ワークショップ開催までのタスク管理
 ## やること
 
 - [ ] Doorkeeperのイベントページ作成（要管理権限）
+- [ ] 以下の各日付`YYYY-MM-DD`をセットする
+  - `prepare/get_preparation_issue_converted_dates.rb` を実行する
+  - オープン状態の各ワークショップ準備issueについて、日付部分を計算して置換したテキストが得られる
+  - 本issueのテキストをコピーして、この内容を差し替える
 - タイムライン、メッセージ送信予定（要管理権限）
   - 開催1ヵ月前（YYYY-MM-DD）
     - [ ] イベント未登録者向け：[サポーター募集文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_supporter_invitation.md)
