@@ -20,16 +20,16 @@ $keywords = [
 
 def calc_date(date, keyword)
   case keyword
-    when "開催1ヵ月前"
-      return date << 1
-    when "開催2週間前"
-      return date - 14
-    when "開催1週間前"
-      return date - 7
-    when "開催3日前"
-      return date - 3
-    when "開催1日前"
-      return date - 1
+  when "開催1ヵ月前"
+    date << 1
+  when "開催2週間前"
+    date - 14
+  when "開催1週間前"
+    date - 7
+  when "開催3日前"
+    date - 3
+  when "開催1日前"
+    date - 1
   else
     raise "Invalid keyword"
   end
