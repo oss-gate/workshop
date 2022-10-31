@@ -46,20 +46,10 @@ def get_preparation_issues
 end
 
 def convert_body(body, date)
-  converted = ""
-
-  body.each_line do |line|
-    result = line
-    selecteds = $keywords.select { |keyword| line.strip.start_with?("- #{keyword}") }
-    raise "Unexpected line!" if selecteds.length > 1
-    if selecteds.length == 1
-      keyword = selecteds[0]
-      result = "#{line.split(keyword)[0]}#{keyword}(#{calc_date(date, keyword)})\n"
-    end
-    converted << result
+  body.gsub(/(開催.+前)（YYYY-MM-DD）/) do
+    before = Regexp.last_match[1]
+    "#{before}（#{calc_date(date, before)}）"
   end
-
-  converted
 end
 
 get_preparation_issues.each do |issue|
