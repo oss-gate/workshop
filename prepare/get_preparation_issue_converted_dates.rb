@@ -10,14 +10,6 @@ if ARGV.size > 0
   exit(false)
 end
 
-$keywords = [
-  "開催1ヵ月前",
-  "開催2週間前",
-  "開催1週間前",
-  "開催3日前",
-  "開催1日前",
-]
-
 def calc_date(date, keyword)
   case keyword
   when "開催1ヵ月前"
