@@ -1,7 +1,7 @@
 on:
   pull_request_target:
     types:
-      - closed
+      - opened
     paths:
       - "tutorial/retrospectives/**/*.yaml"
 
