@@ -31,8 +31,8 @@ https://oss-gate.github.io/workshop/supporter-guide.html
 進行役スタートガイド
 https://oss-gate.github.io/workshop/new-to-moderator.html
 
-進行役を務めてみたい方は、サポーターとして参加登録をされた上で、以下のIssueにて「進行役をしてみたい」とコメントして頂けましたら幸いです。
+進行役を務めてみたい方は、サポーターとして参加登録をされた上で、以下のAnnouncementにて「進行役をしてみたい」とコメントして頂けましたら幸いです。
 
-${{Issue URL}}
+${{Announcement URL}}
 
 それでは。
