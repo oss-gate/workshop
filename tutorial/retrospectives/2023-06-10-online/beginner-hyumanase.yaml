@@ -17,7 +17,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [yui-knk/lr-parser-101](https://github.com/yui-knk/lr-parser-101)
+    yui-knk/lr-parser-101 https://github.com/yui-knk/lr-parser-101
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
