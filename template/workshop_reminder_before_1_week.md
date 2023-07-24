@@ -9,12 +9,14 @@ ${month}月${day}日のOSS Gateワークショップ開催まで、1週間とな
 みなさまご都合のほうはよろしいでしょうか？
 もし参加が難しくなった方がいらっしゃいましたら、忘れずにキャンセル操作をお願い致します！
 
-当日は、Discordを利用してのオンライン開催となります。
-事前にダウンロード・インストールをお願いします。
+当日は、[Element](https://element.io/)を利用してのオンライン開催となります。
+事前にこちらのURLにアクセスいただき、Elementから`oss-gate/online-workshop`ルームに参加できることをご確認ください。
 
-* Discord (アプリ版) https://discord.com/download
+* https://matrix.to/#/#oss-gate_online-workshop:gitter.im
 
-「oss-gate」サーバーへの招待リンクを開催日前日にメールにてご連絡します。
-招待リンクが届きましたら、「oss-gate」サーバーへアクセスできることをご確認ください。
+もし何か問題があれば、以下のいずれかの方法でご相談ください。
 
-では、当日のご参加お待ちしております！
+* [OSS Gateの一般チャット(Element)](https://matrix.to/#/#oss-gate_general:gitter.im)
+* [GitHub Discussions](https://github.com/oss-gate/workshop/discussions) (Elementが使えない場合などはこちらでご相談ください)
+
+それでは、当日のご参加をお待ちしております！
