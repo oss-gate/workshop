@@ -17,7 +17,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [rviz](https://github.com/ros2/rviz)
+    rviz(https://github.com/ros2/rviz)
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
