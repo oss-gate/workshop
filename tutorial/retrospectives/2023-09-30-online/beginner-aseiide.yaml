@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [minikube](https://minikube.sigs.k8s.io/docs/)
+    minikube https://minikube.sigs.k8s.io/docs/
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
