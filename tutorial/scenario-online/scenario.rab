@@ -19,16 +19,109 @@
     * まずはサポーターから発声\n
       (('note:順番はスムーズな進行のために指定しているだけ。'))
 
-= チャット：Element
+= チャット：Discord
 
-  * 一般ルーム\n
-    (('note:((<URL:https://matrix.to/#/#oss-gate_general:gitter.im>))'))
-    * オンラインで相談できる場所
+  * ボイスチャンネル
+    * #一般：全体向けアナウンス
+    * #グループN：各グループの作業用
+  * テキストチャンネル
+    * #YYYY-MM-DD：今日の連絡用
+    * #グループN：各グループの連絡用
+
+= チャット：Gitter
+
+  * gitter.im/oss-gate/(({${地域}}))\n
+    (('note:例：((<URL:https://gitter.im/oss-gate/tokyo>))'))
+  * オンラインで相談できる場所
+  * 今日は連絡用に使う
     * 登録してなにか書き込もう！
-    * 明日からも使おう！
-  * ワークショップルーム\n
-    (('note:((<URL:https://matrix.to/#/#oss-gate_online-workshop:gitter.im>))'))
-    * ワークショップで使う場所
+  * 明日からも使おう！
+
+= OSS Gate？
+
+  # image
+  # src = ../images/oss-gate-icon.svg
+  # relative_width = 30
+  # align = right
+  # vertical_align = top
+  # relative_margin_right = 23
+
+(('tag:center'))
+(('tag:x-large'))
+OSSの門？
+
+= 門
+
+(('tag:center'))
+(('tag:x-large'))
+境界にあるもの
+
+= 扱う境界
+
+  # image
+  # src = ../images/oss-gate-border.svg
+  # relative_width = 100
+
+= ターゲット
+
+  # image
+  # src = ../images/oss-gate-target.svg
+  # relative_width = 100
+
+= やりたいこと
+
+  # image
+  # src = ../images/oss-gate-goal.svg
+  # relative_width = 100
+
+= 未参加者→参加者
+
+  # image
+  # src = ../images/oss-gate-workshop.svg
+  # relative_width = 100
+
+= OSS Gateとワークショップ
+
+  * (('wait'))OSS Gate
+    * [OSS開発参加者を継続的に増やす]\n
+      取り組み
+  * (('wait'))OSS Gateワークショップ
+    * […増やす]を実現するための1手段
+    * ((*未*))経験者が経験者になると増える
+
+= ((*OSS開発者*))や((*OSSコントリビューター*))ってどんなイメージ？
+
+  * 予想：
+    * (('wait'))技術力が高い人\n
+      すごい人\n
+      意識が高い人\n
+      別世界の人
+
+= 実際は
+
+  * OSSプロジェクトに\n
+    関わって((*みようと思えた*))人
+  * 関わって((*しまった*))人
+  * 関わると((*メリットが大きい*))人
+
+= ワークショップの重要事項
+
+(('tag:center'))
+(('tag:x-large'))
+体験する\n
+(('note:体験して大したことはないとわかる→敷居が下がる'))
+
+= 体験して門をくぐる
+
+  # image
+  # src = ../images/oss-gate-pass-through.svg
+  # relative_width = 100
+
+= よりくぐりやすく
+
+  # image
+  # src = ../images/oss-gate-support.svg
+  # relative_width = 100
 
 = ワークショップの内容1
 
@@ -112,48 +205,11 @@ OSSを動かす
 (('tag:center'))
 (('note:（詳細は後述）'))
 
-  (1) 作業メモを書く場所を用意
-  (2) 対象OSSを決める
+  (1) 対象OSSを決める
+  (2) 作業メモを書く場所を用意
   (3) 作業メモを書きながら\n
       ((*公式サイト・README通り*))\n
       動かす
-
-= 作業メモを書く場所を作る
-
-(('tag:center'))
-(('tag:x-large'))
-デモ
-
-  (1) GitHub: oss-gate/workshop
-  (2) ↑にissueを作る
-  (3) 周囲のビギナーの人たちが\n
-      作ったissueにコメント
-
-= 作業メモの例
-
-  ドキュメント通りインストールしたけど
-  失敗した。
-
-= よりよい作業メモの例
-
-  http://... のインストール手順をなぞろう！
-  （↑後から再度参照できるようにURLも書く）
-  brewでインストールできるはずなのに失敗した
-  （↑期待する結果）
-
-    % brew install XXX（←なにをしたか）
-    （...コマンドの実行結果...）
-    （↑実際の結果）
-    XXX is not found
-  ↑というようにパッケージがないと言われる
-
-= 対象OSS決め
-
-  * ビギナーが決める！
-    * こちらから出す「課題」は無い
-  * サポーターは↑をサポート
-    * 自分の知らないOSSや言語でもよい\n
-      (('note:ビギナーと一緒に悩んであげよう！'))
 
 = OSSとは
 
@@ -163,6 +219,14 @@ OSSを動かす
   * ライセンスを確認すれば\n
     OSSかどうかわかる
     * OSS「っぽい」は存在しない
+
+= 対象OSS決め
+
+  * ビギナーが決める！
+    * こちらから出す「課題」は無い
+  * サポーターは↑をサポート
+    * 自分の知らないOSSや言語でもよい\n
+      (('note:ビギナーと一緒に悩んであげよう！'))
 
 = 対象OSS決めのヒント1
 
@@ -201,6 +265,35 @@ OSSを動かす
     * 例：ドキュメントを読み始めた
     * 例：次のドキュメントを読み始めた
 
+= 作業メモを書く場所を作る
+
+(('tag:center'))
+(('tag:x-large'))
+デモ
+
+  (1) GitHub: oss-gate/workshop
+  (2) ↑にissueを作る
+  (3) 周囲のビギナーの人たちが\n
+      作ったissueにコメント
+
+= 作業メモの例
+
+  ドキュメント通りインストールしたけど
+  失敗した。
+
+= よりよい作業メモの例
+
+  http://... のインストール手順をなぞろう！
+  （↑後から再度参照できるようにURLも書く）
+  brewでインストールできるはずなのに失敗した
+  （↑期待する結果）
+
+    % brew install XXX（←なにをしたか）
+    （...コマンドの実行結果...）
+    （↑実際の結果）
+    XXX is not found
+  ↑というようにパッケージがないと言われる
+
 = ユーザーとして動かす
 
 (('tag:center'))
@@ -217,7 +310,7 @@ OSSを動かす
 
 (('tag:center'))
 (('tag:x-large'))
-12時15分まで！
+●時▲分まで！
 
   (1) 公式サイトを開く
   (2) 作業メモを書く
@@ -225,22 +318,11 @@ OSSを動かす
   (4) 作業メモを書く
   (5) ...
 
-= 休憩/雑談タイム
-
-(('tag:center'))
-(('tag:x-large'))
-13時15分まで！
-
-  * せっかくなので
-    色々質問してみよう
-  * 前半のみ参加のサポーターの方は
-    後ほどアンケート回答をお願いします！
-
 = ふりかえり1
 
 (('tag:center'))
 (('tag:x-large'))
-…13時40分！
+…●時▲分！
 
   * これまでの活動を見直す機会
 
@@ -269,6 +351,17 @@ OSSを動かす
   * ビギナーが作業メモを読む
   * 時間が余ったら：
     * 他のビギナーにも説明
+
+= 休憩/雑談タイム
+
+(('tag:center'))
+(('tag:x-large'))
+●時▲分まで！
+
+  * せっかくなので
+    色々質問してみよう
+  * 前半のみ参加のサポーターの方は
+    後ほどアンケート回答をお願いします！
 
 = 現状確認
 
@@ -404,7 +497,7 @@ OSSを動かす
 
 (('tag:center'))
 (('tag:x-large'))
-15時40分まで！
+●時▲分まで！
 
 (('note:前半と同じサポーターに見てもらう'))
 
@@ -412,12 +505,6 @@ OSSを動かす
   (2) 開発者にとってわかりやすくなるように編集する
   (3) 適切な場所に報告する
   (4) ...
-
-= 小休憩
-
-(('tag:center'))
-(('tag:x-large'))
-15時50分まで！
 
 = ふりかえり2：デモ
 
@@ -433,10 +520,6 @@ OSSを動かす
     * 完了→issueにコメント
 
 = ふりかえり2：進め方
-
-(('tag:center'))
-(('tag:x-large'))
-…16時15分！
 
   * サポーターを他の人に交代
   * 対象ビギナーの作業ログを\n
@@ -543,18 +626,8 @@ OSSの開発を\n
     * 多くの人と協力して継続したい！
     * 会場提供・サポーター・進行役・…
   * チャットで色々話してるよ！
-    * (('tag:x-small'))((<URL:https://matrix.to/#/#oss-gate_general:gitter.im>))
-
-= 今後のイベントアナウンス
-
-  * Doorkeeper
-  * GitHub Discussions\n
-    (('note:((<URL:https://github.com/oss-gate/workshop/discussions/categories/announcements>))'))
-    * 通知設定: Custom -> Discussions
-
-  # image
-  # src = ../images/oss-gate-watch.png
-  # relative_width = 100
+    * (('tag:x-small'))https://gitter.im/oss-gate/(({${地域}}))
+    * (('tag:x-small'))例：((<URL:https://gitter.im/oss-gate/tokyo>))
 
 = おねがい
 
