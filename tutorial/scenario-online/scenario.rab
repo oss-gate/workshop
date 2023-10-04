@@ -19,23 +19,16 @@
     * まずはサポーターから発声\n
       (('note:順番はスムーズな進行のために指定しているだけ。'))
 
-= チャット：Discord
+= チャット：Element
 
-  * ボイスチャンネル
-    * #一般：全体向けアナウンス
-    * #グループN：各グループの作業用
-  * テキストチャンネル
-    * #YYYY-MM-DD：今日の連絡用
-    * #グループN：各グループの連絡用
-
-= チャット：Gitter
-
-  * gitter.im/oss-gate/(({${地域}}))\n
-    (('note:例：((<URL:https://gitter.im/oss-gate/tokyo>))'))
-  * オンラインで相談できる場所
-  * 今日は連絡用に使う
+  * 一般ルーム\n
+    (('note:((<URL:https://matrix.to/#/#oss-gate_general:gitter.im>))'))
+    * オンラインで相談できる場所
     * 登録してなにか書き込もう！
-  * 明日からも使おう！
+    * 明日からも使おう！
+  * ワークショップルーム\n
+    (('note:((<URL:https://matrix.to/#/#oss-gate_online-workshop:gitter.im>))'))
+    * ワークショップで使う場所
 
 = OSS Gate？
 
@@ -626,8 +619,7 @@ OSSの開発を\n
     * 多くの人と協力して継続したい！
     * 会場提供・サポーター・進行役・…
   * チャットで色々話してるよ！
-    * (('tag:x-small'))https://gitter.im/oss-gate/(({${地域}}))
-    * (('tag:x-small'))例：((<URL:https://gitter.im/oss-gate/tokyo>))
+    * (('tag:x-small'))((<URL:https://matrix.to/#/#oss-gate_general:gitter.im>))
 
 = おねがい
 
