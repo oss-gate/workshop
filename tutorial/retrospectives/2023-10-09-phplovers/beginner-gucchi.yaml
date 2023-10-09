@@ -7,7 +7,7 @@ questions:
     # みんなのためとか世界のためとかでもよいですが、
     # 個人的な理由でもまったく問題ありません。
     # 自分の思っていることを大事にしたいのです。
-    [ogiさん](https://github.com/togishima)に誘っていただいてOSSについて何も知りませんでしたが楽しそうだと思ったからです。
+    ogiさん https://github.com/togishima に誘っていただいてOSSについて何も知りませんでしたが楽しそうだと思ったからです。
   # 見つけた場所
   via:
     # どこでこのワークショップを知りましたか？
@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    Carbonです。[GitHub](https://github.com/briannesbitt/Carbon)
+    Carbonです。 https://github.com/briannesbitt/Carbon
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
