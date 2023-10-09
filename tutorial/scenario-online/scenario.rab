@@ -621,6 +621,17 @@ OSSの開発を\n
   * チャットで色々話してるよ！
     * (('tag:x-small'))((<URL:https://matrix.to/#/#oss-gate_general:gitter.im>))
 
+= 今後のイベントアナウンス
+
+  * Doorkeeper
+  * GitHub Discussions\n
+    (('note:((<URL:https://github.com/oss-gate/workshop/discussions/categories/announcements>))'))
+    * 通知設定: Custom -> Discussions
+
+  # image
+  # src = ../images/oss-gate-watch.png
+  # relative_width = 100
+
 = おねがい
 
   * 今日のフィードバックを！
