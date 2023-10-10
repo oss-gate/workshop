@@ -1,6 +1,7 @@
 ---
 name: ワークショップの作業メモ
 about: ワークショップ中にビギナーが使う
+labels: work log
 ---
 
 This is a work log of a "OSS Gate workshop".
