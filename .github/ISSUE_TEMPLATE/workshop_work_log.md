@@ -1,6 +1,7 @@
 ---
 name: ワークショップの作業メモ
 about: ワークショップ中にビギナーが使う
+title: "OSS Gate Workshop: ${LOCATION}: ${YEAR}-${MONTH}-${DAY}: ${ACCOUNT_NAME}: ${OSS_NAME}: Work log"
 labels: work log
 ---
 
