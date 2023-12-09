@@ -19,6 +19,13 @@
     * まずはサポーターから発声\n
       (('note:順番はスムーズな進行のために指定しているだけ。'))
 
+= スライド
+
+  * Rabbit Slide Showで公開\n
+    (('note:((<URL:https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-online/>))'))
+  * スライドソース\n
+    (('note:((<URL:https://github.com/oss-gate/workshop/tree/master/tutorial/scenario-online/>))'))
+
 = チャット：Element
 
   * 一般ルーム\n
