@@ -656,3 +656,5 @@ OSSの開発を\n
   (3) (('tag:x-small'))git add → git commit → git push
   (4) (('tag:x-small'))github.com/自分のアカウント/workshop
       を開いて「Pull request」
+
+(('note:回答ツールもあるよ: ((<URL:https://github.com/blacktoad30/survey-sh>))'))
