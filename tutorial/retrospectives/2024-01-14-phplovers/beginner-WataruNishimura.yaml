@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    @aws-amplify/amplify-cli
+    "@aws-amplify/amplify-cli"
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
