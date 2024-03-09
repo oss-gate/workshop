@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [minimistjs/minimist: parse argument options](https://github.com/minimistjs/minimist)
+    minimist
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
