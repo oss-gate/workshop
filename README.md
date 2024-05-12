@@ -13,3 +13,7 @@ OSS Gateワークショップは奇数月の最終土曜日に開催していま
 ## チュートリアル
 
 [tutorialディレクトリ](tutorial/)の下には、主にワークショップの進行役が利用するための資料が置かれています。まずは[シナリオ](tutorial/scenario.md)を読んで、関連する資料を参照してください。
+
+## コミュニティーチャット
+
+* https://matrix.to/#/#oss-gate:matrix.org
