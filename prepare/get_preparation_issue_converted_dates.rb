@@ -34,7 +34,11 @@ def get_preparation_issues
 
   issues = JSON.parse(res.body)
 
-  issues.select { |issue| issue["title"].start_with?("OSS Gateオンラインワークショップ") }
+  issues.select do |issue|
+    issue["labels"].any? do |label|
+      label["name"] == "prepare workshop"
+    end
+  end
 end
 
 def convert_body(body, date)
