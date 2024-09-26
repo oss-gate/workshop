@@ -1,6 +1,7 @@
 ---
 name: ワークショップ準備
 about: ワークショップ開催までのタスク管理
+labels: prepare workshop
 ---
 
 ## 開催内容
