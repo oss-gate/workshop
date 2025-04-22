@@ -1,6 +1,6 @@
 ---
-name: ワークショップ準備
-about: ワークショップ開催までのタスク管理
+name: ワークショップ準備（オンライン）
+about: オンラインワークショップ開催までのタスク管理
 labels: prepare workshop
 ---
 
@@ -8,6 +8,7 @@ labels: prepare workshop
 
 - [イベントページ](https://oss-gate.doorkeeper.jp/events/TODO)
 - 時間: YYYY-MM-DDT10:30/17:00 or YYYY-MM-DDT13:00/19:00
+- このイベントに関する窓口: @
 - 進行役: @
 
 ## やること
