@@ -1,0 +1,25 @@
+type: supporter
+questions:
+  motivation:
+    最近OSS活動を始めたので、OSS初心者の方に何かできることがあればと思い参加しました。
+  via:
+    クリアコードの会社説明会
+  supported:
+    - サポートできた
+  satisfaction-rating:
+    - 満足した
+  difference:
+    - 想定通りだった
+  moderator:
+    OSSに貢献するというハードルが高くないこと、失敗しても大丈夫だと伝えられていた点が良かったと思いました。
+  support-mentor:
+  moderator-likely:
+    - サポートする人がいれば自分でもやれそう
+  next:
+    - サポーターとして参加する
+    - まわりの人にOSS Gateワークショップを紹介する
+  active-rate:
+    隔月でオンライン・オフラインを交互にやっている？　都合があれば参加したい（オンラインとか）
+  challenge-planning:
+    サポーターのコントリビューションの事例を紹介するなど？
+  etc:
