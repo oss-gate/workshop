@@ -50,6 +50,9 @@ labels: prepare workshop
     - [ ] (もしサポーターが集まらず開催できない場合) 参加者、キャンセル待ち向け：[サポーター不足による中止を伝える文面](https://github.com/oss-gate/workshop/raw/master/template/workshop_canceled.md)
   - 開催1日前（YYYY-MM-DD）
     - [ ] `tutorial/retrospectives/prepare.rb` を実行してアンケートのテンプレートを追加する（ #1337 ）（要コミット権）
+- [ ] スポンサーページへの掲載についてご連絡
+  - https://oss-gate.github.io/sponsors/
+  - https://github.com/oss-gate/oss-gate.github.io/pull/101 のようなPRをいただけるとありがたい
 - [ ] 4回分先までのDoorkeeperイベントページの作成（要管理権限）
   1. [イベントリスト](https://manage.doorkeeper.jp/groups/oss-gate/events)を開く。
   2. 「1月と4月と7月と10月は最終土曜日に10:30から17:00で開催」「3月と6月と9月と12月は第2土曜日に13:00から19:00で開催」のルールに従い、同じ開催時刻の未開催イベントまたは過去イベントから「コピーして新規イベント作成」を実行する。
