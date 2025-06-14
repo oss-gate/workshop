@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [mcp-cloudflare-boilerplate](https://github.com/f/mcp-cloudflare-boilerplate)
+    mcp-cloudflare-boilerplate https://github.com/f/mcp-cloudflare-boilerplate
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
