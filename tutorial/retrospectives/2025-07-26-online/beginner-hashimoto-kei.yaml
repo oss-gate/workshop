@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [Wastime](https://github.com/bytecodealliance/wasmtime)
+    https://github.com/bytecodealliance/wasmtime
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
