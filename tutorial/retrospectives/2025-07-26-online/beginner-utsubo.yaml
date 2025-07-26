@@ -15,7 +15,7 @@ questions:
   # 開発対象
   target:
     # ワークショップで開発対象に選んだOSSはなんですか？
-    [holiday_jp](https://github.com/holiday-jp/holiday_jp-ruby)
+    https://github.com/holiday-jp/holiday_jp-ruby
   # 満足度
   satisfaction-rating:
     # ↓のうち当てはまるものだけを残してください。
