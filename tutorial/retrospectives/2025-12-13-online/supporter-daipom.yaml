@@ -1,0 +1,23 @@
+---
+type: supporter
+questions:
+  motivation: 業務
+  via: 会社
+  supported:
+  - サポートできた
+  satisfaction-rating:
+  - 満足した
+  difference:
+  - 想定通りだった
+  moderator: 自分。
+  support-mentor: なし
+  moderator-likely:
+  - 自分一人でもなんとかやれそう
+  next:
+  - サポーターとして参加する
+  - 進行役として参加する
+  - まわりの人にOSSワークショップを紹介する
+  - まわりの人と一緒にOSS Gateワークショップに参加する
+  active-rate: 定期的に参加します
+  challenge-planning: わかりません
+  etc: "(ここに回答を改行を入れずに書いてください)"
