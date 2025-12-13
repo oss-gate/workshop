@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSS Gateワークショップの振り返り (ビギナー用)</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+  </head>
+  <body>
+    <header>
+      <h1>お疲れ様でした！</h1>
+      <p>OSS Gateワークショップにご参加いただきありがとうございました！</p>
+    </header>
+
+    <section>
+      <h1>アンケートへの回答をお願いいたします</h1>
+
+      <p>
+        本日のOSS Gateワークショップはいかがでしたか？<br />
+        今後のOSS Gateワークショップの参考とするため、アンケートへの回答をお願いいたします！
+      </p>
+    </section>
+
+    <hr />
+
+    <main>
+      <form id="beginner"
+            method="post"
+            action="">
+        <hgroup>
+          <h1>OSS Gateワークショップの振り返り</h1>
+          <p>ビギナー用</p>
+        </hgroup>
+
+        <p><strong><span aria-label="required">*</span></strong>は必須項目</p>
+
+        <section id="username">
+          <h2>
+            <span>ユーザー名</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>GitHubアカウントのユーザー名 (@以降の文字列)を入力して下さい。</p>
+
+          <input type="text"
+                 id="username"
+                 name="username"
+                 required />
+        </section>
+
+        <section id="motivation">
+          <h2>
+            <span>参加した理由</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>
+            どうしてこのワークショップに参加しようと思いましたか？<br />
+            どうしてOSSの開発に参加したいと思っていますか？<br />
+            みんなのためとか世界のためとかでもよいですが、<wbr />
+            個人的な理由でもまったく問題ありません。<br />
+            自分の思っていることを大事にしたいのです。
+          </p>
+
+          <label for="motivation">
+            <span>（改行は不要です）</span><br />
+          </label>
+
+          <textarea id="motivation"
+                    name="motivation"
+                    required></textarea>
+        </section>
+
+        <section id="via">
+          <h2>
+            <span>見つけた場所</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>どこでこのワークショップを知りましたか？</p>
+
+          <label for="via">
+            <span>（改行は不要です）</span><br />
+          </label>
+
+          <textarea id="via"
+                    name="via"
+                    required></textarea>
+        </section>
+
+        <section id="target">
+          <h2>
+            <span>開発対象</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>ワークショップで開発対象に選んだOSSはなんですか？</p>
+
+          <input type="text"
+                 id="target"
+                 name="target"
+                 required />
+        </section>
+
+        <section id="satisfaction-rating">
+          <h2>
+            <span>満足度</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <label for="satisfaction-rating">
+            <span>当てはまるものを1つ選んでください</span><br />
+          </label>
+
+          <select id="satisfaction-rating"
+                  name="satisfaction-rating"
+                  required>
+            <option value="">-- 選択してください --</option>
+            <option value="すごく満足した">すごく満足した</option>
+            <option value="満足した">満足した</option>
+            <option value="不満だった">不満だった</option>
+            <option value="すごく不満だった">すごく不満だった</option>
+          </select>
+        </section>
+
+        <section id="difference">
+          <h2>
+            <span>想定との違い</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <label for="difference">
+            <span>当てはまるものを1つ選んでください</span><br />
+          </label>
+
+          <select id="difference"
+                  name="difference"
+                  required>
+            <option value="">-- 選択してください --</option>
+            <option value="想定より充実していた">想定より充実していた</option>
+            <option value="想定通りだった">想定通りだった</option>
+            <option value="期待はずれだった">期待はずれだった</option>
+            <option value="すごく期待はずれだった">すごく期待はずれだった</option>
+          </select>
+        </section>
+
+        <section id="moderator">
+          <h2>
+            <span>進行役について</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>
+            進行役はうまく進行できていましたか？<br />
+            進行役の説明はどうでしたか？<wbr />
+            スライドの内容を理解するのに役立ちましたか？
+          </p>
+
+          <label for="moderator">
+            <span>（改行は不要です）</span><br />
+          </label>
+
+          <textarea id="moderator"
+                    name="moderator"
+                    required></textarea>
+        </section>
+
+        <section id="support-mentor">
+          <h2>
+            <span>サポートメンターについて</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>
+            サポートメンターはサポーターがいないときの代役としてうまくフォローできていましたか？<br />
+            サポートメンターはサポーターをうまくフォローできていましたか？
+          </p>
+
+          <label for="support-mentor">
+            <span>（改行は不要です）</span><br />
+          </label>
+
+          <textarea id="support-mentor"
+                    name="support-mentor"
+                    required></textarea>
+        </section>
+
+        <section id="next">
+          <h2>
+            <span>次回のOSS Gateワークショップについて</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <fieldset>
+            <legend>当てはまるものを全て選んでください</legend>
+
+            <div>
+              <input type="checkbox"
+                     id="ビギナーとして参加する"
+                     name="next"
+                     value="ビギナーとして参加する" />
+
+              <label for="ビギナーとして参加する">ビギナーとして参加する</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="サポーターとして参加する"
+                     name="next"
+                     value="サポーターとして参加する" />
+
+              <label for="サポーターとして参加する">サポーターとして参加する</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="まわりの人にOSSワークショップを紹介する"
+                     name="next"
+                     value="まわりの人にOSSワークショップを紹介する" />
+
+              <label for="まわりの人にOSSワークショップを紹介する">まわりの人にOSSワークショップを紹介する</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="まわりの人と一緒にOSS Gateワークショップに参加する"
+                     name="next"
+                     value="まわりの人と一緒にOSS Gateワークショップに参加する" />
+
+              <label for="まわりの人と一緒にOSS Gateワークショップに参加する">まわりの人と一緒にOSS Gateワークショップに参加する</label>
+            </div>
+          </fieldset>
+        </section>
+
+        <section id="future">
+          <h2>
+            <span>今後のOSS開発への参加について</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <label for="future">
+            <span>当てはまるものを1つ選んでください</span><br />
+          </label>
+
+          <select id="future"
+                  name="future"
+                  required>
+            <option value="">-- 選択してください --</option>
+            <option value="機会を作って積極的に開発に参加するし、まわりの人が開発に参加することも手伝う">機会を作って積極的に開発に参加するし、まわりの人が開発に参加することも手伝う</option>
+            <option value="機会を作って積極的に開発に参加する">機会を作って積極的に開発に参加する</option>
+            <option value="機会があれば開発に参加する">機会があれば開発に参加する</option>
+            <option value="機会があったら開発に参加したい（けどできなそう）">機会があったら開発に参加したい（けどできなそう）</option>
+            <option value="機会があっても開発に参加しない">機会があっても開発に参加しない</option>
+          </select>
+        </section>
+
+        <section id="future-motivation">
+          <h2>
+            <span>今後のOSSの開発への参加の動機について</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>
+            今回のワークショップを終えた現時点で、今後のOSS開発への参加で<wbr />
+            どういうことが動機になりそうだと思いますか？<br />
+            みんなのためとか世界のためとかでもよいですが、<wbr />
+            個人的な理由でもまったく問題ありません。
+          </p>
+
+          <fieldset>
+            <legend>当てはまるものを全て選んでください</legend>
+
+            <div>
+              <input type="checkbox"
+                     id="特定のソフトウェアの自分が使う範囲の機能を改善したい"
+                     name="future-motivation"
+                     value="特定のソフトウェアの自分が使う範囲の機能を改善したい" />
+
+              <label for="特定のソフトウェアの自分が使う範囲の機能を改善したい">特定のソフトウェアの自分が使う範囲の機能を改善したい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="特定のソフトウェアに全般的に貢献したい"
+                     name="future-motivation"
+                     value="特定のソフトウェアに全般的に貢献したい" />
+
+              <label for="特定のソフトウェアに全般的に貢献したい">特定のソフトウェアに全般的に貢献したい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="オープンソースの開発コミュニティに全般的に貢献したい"
+                     name="future-motivation"
+                     value="オープンソースの開発コミュニティに全般的に貢献したい" />
+
+              <label for="オープンソースの開発コミュニティに全般的に貢献したい">オープンソースの開発コミュニティに全般的に貢献したい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="人付き合いの幅を拡げたい"
+                     name="future-motivation"
+                     value="人付き合いの幅を拡げたい" />
+
+              <label for="人付き合いの幅を拡げたい">人付き合いの幅を拡げたい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="新しい技術に触れたい"
+                     name="future-motivation"
+                     value="新しい技術に触れたい" />
+
+              <label for="新しい技術に触れたい">新しい技術に触れたい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="技術力を磨きたい/腕試ししたい"
+                     name="future-motivation"
+                     value="技術力を磨きたい/腕試ししたい" />
+
+              <label for="技術力を磨きたい/腕試ししたい">技術力を磨きたい/腕試ししたい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="公に言える個人の実績を積み上げたい"
+                     name="future-motivation"
+                     value="公に言える個人の実績を積み上げたい" />
+
+              <label for="公に言える個人の実績を積み上げたい">公に言える個人の実績を積み上げたい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="就職・転職・フリーランスでの交渉などで使えるポートフォリオにしたい"
+                     name="future-motivation"
+                     value="就職・転職・フリーランスでの交渉などで使えるポートフォリオにしたい" />
+
+              <label for="就職・転職・フリーランスでの交渉などで使えるポートフォリオにしたい">就職・転職・フリーランスでの交渉などで使えるポートフォリオにしたい</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="業務上の必要があってソフトウェアを改善しないといけない"
+                     name="future-motivation"
+                     value="業務上の必要があってソフトウェアを改善しないといけない" />
+
+              <label for="業務上の必要があってソフトウェアを改善しないといけない">業務上の必要があってソフトウェアを改善しないといけない</label>
+            </div>
+
+            <div>
+              <input type="checkbox"
+                     id="その他"
+                     name="future-motivation"
+                     value="その他" />
+
+              <label for="その他">その他</label>
+
+              <input type="text"
+                     id="future-motivation-freeform"
+                     name="future-motivation-freeform"
+                     aria-label="future-motivation-freeform" />
+            </div>
+          </fieldset>
+        </section>
+
+        <section id="challenge-planning">
+          <h2>
+            <span>次に変えて試すこと</span>
+            <strong><span aria-label="required">*</span></strong>
+          </h2>
+
+          <p>
+            ワークショップの内容を何か1つだけ変えられるとしたら、<wbr />
+            どんなことを試したいと思いますか？
+          </p>
+
+          <label for="challenge-planning">
+            <span>（改行は不要です）</span><br />
+          </label>
+
+          <textarea id="challenge-planning"
+                    name="challenge-planning"
+                    required></textarea>
+        </section>
+
+        <section id="etc">
+          <h2><span>その他</span></h2>
+
+          <p>なにか思ったことがあれば自由に書いてください。</p>
+
+          <label for="etc">
+            <span>（改行は不要です）</span><br />
+          </label>
+
+          <textarea id="etc"
+                    name="etc"></textarea>
+        </section>
+
+        <!-- <input type="submit" -->
+        <!--        value="回答結果を出力する" -->
+        <!--        formenctype="text/plain" /> -->
+
+        <section id="save">
+          <button type="button"
+                  onclick='saveQuestionnaire("beginner")'>回答結果をファイルに保存</button>
+        </section>
+      </form>
+    </main>
+
+    <hr />
+
+    <p>質問は以上です。お疲れ様でした！</p>
+
+    <footer>
+      <!-- Footer content, e.g., copyright information -->
+    </footer>
+
+    <script src="questionnaire.js"></script>
+  </body>
+</html>
