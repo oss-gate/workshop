@@ -1,0 +1,25 @@
+---
+id: workshop-tutorial-ruby
+base_name: scenario
+tags:
+- rabbit
+- ruby
+- oss_gate
+- workshop
+presentation_date: 2026-08-06
+version: 2026.8.6.0
+licenses:
+- CC-BY-SA-4.0
+slideshare_id: 
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+source_code_uri: https://github.com/oss-gate/workshop/tree/-/tutorial/scenario-ruby
+author:
+  markup_language: :rd
+  name: OSS Gate
+  email: kou+oss-gate@cozmixng.org
+  rubygems_user: oss-gate
+  slideshare_user: 
+  speaker_deck_user: 
