@@ -661,9 +661,10 @@ OSSの開発を\n
 = アンケートの回答方法
 
   (1) (('tag:x-small'))github.com/oss-gate/workshop をfork
-  (2) (('tag:x-small'))tutorial/retrospectives/YYYY-MM-DD-***
-      * cp (('tag:x-small'))beginner.yaml beginner-***.yaml
-      * cp (('tag:x-small'))supporter.yaml supporter-***.yaml
-  (3) (('tag:x-small'))git add → git commit → git push
-  (4) (('tag:x-small'))github.com/自分のアカウント/workshop
-      を開いて「Pull request」
+  (2) (('tag:x-small'))git clone git@github.com:${GITHUB_ID}/workshop.git
+  (3) (('tag:x-small'))tutorial/retrospectives/${YYYY}-${MM}-${DD}-ruby-${LOCATION}
+      * cp (('tag:x-small'))beginner.yaml beginner-${GITHUB_ID}.yaml
+      * cp (('tag:x-small'))supporter.yaml supporter-${GITHUB_ID}.yaml
+  (4) (('tag:x-small'))git switch -c retrospective
+  (5) (('tag:x-small'))git add → git commit → git push
+  (6) (('tag:x-small'))github.com/${GITHUB_ID}/workshopを開いて「Pull request」
