@@ -1,0 +1,52 @@
+name: Rubyエコシステム開発入門ワークショップのふりかえり（サポーター用）
+about: サポーターのふりかえりの提出にはこれかPRを使う
+title: "Ruby ecosystem development introduction workshop: Supporter: Retrospective"
+labels:
+  - ruby
+  - retrospective
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 参加した理由
+      description: |
+        どうしてこのワークショップに参加しようと思いましたか？
+        どうしてRubyエコシステムの開発に参加する人が増えるといいなぁと思っていますか？
+        みんなのためとか世界のためとかでもよいですが、個人的な理由でもまったく問題ありません。
+        自分の思っていることを大事にしたいのです。
+    validations:
+      required: true
+  - type: textarea
+    id: via
+    attributes:
+      label: 見つけた場所
+      description: |
+        どこでこのワークショップを知りましたか？
+    validations:
+      required: true
+  - type: textarea
+    id: supported
+    attributes:
+      label: このワークショップでビギナーをサポートできましたか？
+      description: |
+        ビギナーのみんなをうまくサポートできましたか？
+        どのようなサポートが効いた気がしますか？
+        こうやったらもっとうまくサポートできただろうなぁというアイディアはありますか？
+    validations:
+      required: true
+  - type: textarea
+    id: to-beginners
+    attributes:
+      label: ビギナーのみんなに一言
+      description: |
+        これからみなさんの開発仲間になるだろうビギナーのみんなになにか伝えたいことはありますか？
+    validations:
+      required: true
+  - type: textarea
+    id: etc
+    attributes:
+      label: その他
+      description: |
+        なにか思ったことがあれば自由に書いてください。
+    validations:
+      required: false
