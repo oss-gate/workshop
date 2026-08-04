@@ -2,8 +2,9 @@ name: Rubyエコシステム開発入門ワークショップのふりかえり�
 about: ビギナーのふりかえりの提出にはこれかPRを使う
 title: "Ruby ecosystem development introduction workshop: Beginner: Retrospective"
 labels:
-  - ruby
+  - beginner
   - retrospective
+  - ruby
 body:
   - type: textarea
     id: motivation
