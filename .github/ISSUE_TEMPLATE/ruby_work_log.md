@@ -25,4 +25,4 @@ Here's been discussed in Japanese. Thanks.
 
   * [スライド](https://slide.rabbit-shocker.org/authors/oss-gate/workshop-tutorial-ruby/)：ワークショップの進行に使っているスライドがあります。
   * [ruby-jp Slack](https://ruby-jp.github.io/)の`#oss_gate`チャンネル：Rubyエコシステムの開発に関することならなんでも相談できます。ワークショップが終わった後もオンラインで相談しながら継続的にRubyエコシステムの開発に参加しましょう！
-  * [過去のビギナーの作業ログ](https://github.com/oss-gate/workshop/isgsues?q=is%3Aissue%20is%3Aclosed%20label%3A%22work%20log%22)：他の人の作業ログから学べることがいろいろあるはずです。
+  * [過去のビギナーの作業ログ](https://github.com/oss-gate/workshop/issues?q=is%3Aissue%20is%3Aclosed%20label%3A%22work%20log%22)：他の人の作業ログから学べることがいろいろあるはずです。
