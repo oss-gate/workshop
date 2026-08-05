@@ -1,65 +1,36 @@
-name: Rubyエコシステム開発入門ワークショップのふりかえり（ビギナー用）
-description: ビギナーのふりかえりの提出にはこれかPRを使う
-title: "Ruby ecosystem development introduction workshop: Beginner: Retrospective"
-labels:
-  - beginner
-  - retrospective
-  - ruby
-body:
-  - type: textarea
-    id: motivation
-    attributes:
-      label: 参加した理由
-      description: |
-        # どうしてこのワークショップに参加しようと思いましたか？
-        # どうしてRubyエコシステムの開発に参加したいと思っていますか？
-        # みんなのためとか世界のためとかでもよいですが、個人的な理由でもまったく問題ありません。
-        # 自分の思っていることを大事にしたいのです。
-        個人的に「どんなものにでも挑戦してみよう」というモチベーションが高まっていたからです。
-        また現職の上司が柔軟にしてくださる方だからです。平日開催のため有給を取ろうかと考えていたところ、上司からレポート提出と引き換えに業務扱いにしてよいと促してくださったからです。
-        +++
-        I currently have a motivation for joinning any events.
-        Moreover, my boss agreed that joinning the event is a part of my job, not a personal work.
-    validations:
-      required: true
-  - type: textarea
-    id: via
-    attributes:
-      label: 見つけた場所
-      description: |
-        # どこでこのワークショップを知りましたか？
-        毎年所属企業でスポンサーをしているカンファレンスに関連して、複数のイベントが8月初旬に集まっていると社内Slackで流れてきたからです
-        +++
-        My company's Slack workspace noticed me the event
-    validations:
-      required: true
-  - type: textarea
-    id: target
-    attributes:
-      label: 開発対象
-      description: |
-        # ワークショップで開発対象に選んだプロダクトはなんですか？
-        https://github.com/westonplatter/phashion
-    validations:
-      required: true
-  - type: textarea
-    id: future
-    attributes:
-      label: 今後のRubyエコシステムの開発への参加について
-      description: |
-        # このワークショップで開発への参加の敷居は下がりましたか？
-        # 今後は問題を見つけたときに開発元にフィードバックしたり修正を送ったりできそうですか？
-        # まだ参加への障害がありそうなら教えてください。
-        2026年時点での Ruby 勉強会界隈のイベント管理は connpass.com でされることが多いので、ここ経由で募集していると見つけやすいかもしれません
-        +++
-        We, event-holics, are watching connpass.com to join such an event so publishing the future event there might improve the findability
-    validations:
-      required: true
-  - type: textarea
-    id: etc
-    attributes:
-      label: その他
-      description: |
-        # なにか思ったことがあれば自由に書いてください。
-    validations:
-      required: false
+type: beginner
+questions:
+  # 参加した理由
+  motivation:
+    # どうしてこのワークショップに参加しようと思いましたか？
+    # どうしてRubyエコシステムの開発に参加したいと思っていますか？
+    # みんなのためとか世界のためとかでもよいですが、
+    # 個人的な理由でもまったく問題ありません。
+    # 自分の思っていることを大事にしたいのです。
+    個人的に「どんなものにでも挑戦してみよう」というモチベーションが高まっていたからです。
+    また現職の上司が柔軟にしてくださる方だからです。平日開催のため有給を取ろうかと考えていたところ、上司からレポート提出と引き換えに業務扱いにしてよいと促してくださったからです。
+    +++
+    I currently have a motivation for joinning any events.
+    Moreover, my boss agreed that joinning the event is a part of my job, not a personal work.
+  # 見つけた場所
+  via:
+    # どこでこのワークショップを知りましたか？
+    毎年所属企業でスポンサーをしているカンファレンスに関連して、複数のイベントが8月初旬に集まっていると社内Slackで流れてきたからです
+    +++
+    My company's Slack workspace noticed me the event
+  # 開発対象
+  target:
+    # ワークショップで開発対象に選んだプロダクトはなんですか？
+    https://github.com/westonplatter/phashion
+  # 今後のRubyエコシステムの開発への参加について
+  future:
+    # このワークショップで開発への参加の敷居は下がりましたか？
+    # 今後は問題を見つけたときに開発元にフィードバックしたり修正を送ったり
+    # できそうですか？
+    # まだ参加への障害がありそうなら教えてください。
+    2026年時点での Ruby 勉強会界隈のイベント管理は connpass.com でされることが多いので、ここ経由で募集していると見つけやすいかもしれません
+    +++
+    We, event-holics, are watching connpass.com to join such an event so publishing the future event there might improve the findability
+  # その他
+  etc:
+    # なにか思ったことがあれば自由に書いてください。
