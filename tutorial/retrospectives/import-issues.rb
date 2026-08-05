@@ -42,7 +42,7 @@ end
     end
     login = issue["author"]["login"]
     number = issue["number"]
-    output = "#{id}/#{login}.yaml"
+    output = "#{id}/#{type}-#{login}.yaml"
     File.write(output, answer)
     system("git", "add", output)
     system("git", "commit", "-m", <<-MESSAGE)
