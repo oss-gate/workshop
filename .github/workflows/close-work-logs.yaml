@@ -1,0 +1,39 @@
+name: Close work logs
+on:
+  schedule:
+    # Every Monday 09:00 JST
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Only close work logs for this workshop date (YYYY-MM-DD)"
+        required: false
+      dry-run:
+        description: "Only show which issues would be closed"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  close-work-logs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - name: Close work logs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DATE: ${{ inputs.date }}
+          DRY_RUN: ${{ inputs.dry-run }}
+        run: |
+          args=()
+          if [ "${DRY_RUN}" = "true" ]; then
+            args+=(--dry-run)
+          fi
+          if [ -n "${DATE}" ]; then
+            args+=("${DATE}")
+          fi
+          tutorial/close-work-logs.rb "${args[@]}"

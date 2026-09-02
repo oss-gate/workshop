@@ -8,7 +8,7 @@ id = ARGV[0]
 
 def gh(*args)
   IO.pipe do |input, output|
-    system("gh", *args, 1 => output)
+    system("gh", *args, out: output)
     output.close
     JSON.parse(input.read)
   end
